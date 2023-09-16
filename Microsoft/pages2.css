@@ -1,0 +1,1335 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 12px;
+}
+
+.home{
+    height: 20%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo{
+    font-family:'Times New Roman', Times, serif ;
+    top: 0;
+    font-size: 80px;
+    margin-left: 50%;
+    font-weight: 700;
+    
+
+   }
+   .logo img{
+    width: 15px;
+    padding-left: 6px;
+    
+   }
+
+   
+   .solveforxd h1{
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+   }
+
+   .videos .video{
+    display: inline-grid;
+    margin: 20px;
+    justify-content: center;
+   }
+
+.video{
+    border-radius: 10px;
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+    
+}
+
+
+
+.video h3{
+border-radius: 10px;
+margin: auto;
+font-size: 12px;
+text-align: center;
+}
+
+.video img{
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height: 170px;
+}
+
+.video iframe{
+    border-radius: 10px;
+    margin: auto;
+    width: auto;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.video p{
+    margin: 10px;
+    text-align: center;
+}
+
+ 
+.notes{
+    display: none;
+}
+
+/*-------Vectors-------*/
+.notes1-btn{
+    text-decoration: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .notes1-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+    
+    .notes2-btn{
+    text-decoration: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .notes2-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+    .realtest{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 5%;
+    border-radius: 20px;
+    color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .notes3-btn{
+        text-decoration: none;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 0%;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        }
+        
+        
+        .notes3-btn:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+        }
+    
+        .notes4-btn{
+            text-decoration: none;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            margin-left: 0%;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 60%;
+            border: none;
+            cursor: pointer;
+            }
+            
+            
+            .notes4-btn:hover{
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+            border: 0.1rem solid black;
+            border-radius: 20px;
+            }
+    
+            .notes5-btn{
+                text-decoration: none;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                margin-left: 0%;
+                border-radius: 20px;
+                background-color: black;
+                color: white;
+                padding: 10px;
+                width: 60%;
+                border: none;
+                cursor: pointer;
+                }
+                
+                
+                .notes5-btn:hover{
+                font-weight: bolder;
+                background-color: white;
+                color: black;
+                border: 0.1rem solid black;
+                border-radius: 20px;
+                }
+    
+                .notes6-btn{
+                    text-decoration: none;
+                    margin-top: 10%;
+                    margin-bottom: 10%;
+                    margin-left: 0%;
+                    border-radius: 20px;
+                    background-color: black;
+                    color: white;
+                    padding: 10px;
+                    width: 60%;
+                    border: none;
+                    cursor: pointer;
+                    }
+                    
+                    
+                    .notes6-btn:hover{
+                    font-weight: bolder;
+                    background-color: white;
+                    color: black;
+                    border: 0.1rem solid black;
+                    border-radius: 20px;
+                    }
+        .realtest{
+        text-decoration: none;
+        color: white;
+        position: relative;
+        margin-left: 1%;
+        border-radius: 20px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        }
+    
+    .realtest:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+    
+    /*   notes1*/
+    .notes1{
+    height: auto;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .notes1 h1 {
+        
+        background-color: black;
+        color: white;
+    }
+    .notes1  ol {
+        
+        padding: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .notes1 ol li{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    
+    .tip{
+        color: green;
+    }
+    .notes1 table{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .notes1 table td{
+        text-align: center;
+        color: black;
+    }
+    .notes1 sup{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+       
+    }
+    
+    .notes1 p{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 12px;
+       
+    }
+    .notes1 sub{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+      
+       
+    }
+    
+    .notes1 span{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+      
+       
+    }
+    .donotdisplay{
+        background-color: black;
+        color: white;
+    color: white;
+    margin-left: 97%;
+    font-size: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+    }
+    
+    /*   notes2*/
+    .notes2{
+    height: auto;
+    width: 60%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .notes2 h1 {
+        
+        background-color: black;
+        color: white;
+    }
+    .notes2  ol {
+        
+        padding: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .notes2 ol li{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    
+    .notes2 p{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 12px;
+       
+    }
+    .notes2 sup{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+       
+    }
+    
+    .notes2 sub{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+      
+       
+    }
+    
+    .notes2 span{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+      
+       
+    }
+    .donotdisplay2{
+        background-color: black;
+        color: white;
+    color: white;
+    margin-left: 97%;
+    font-size: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+    }
+    
+    /*   notes3*/
+    .notes3{
+        height: auto;
+        width: 60%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 5%;   
+        bottom: 5%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes3 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes3  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes3 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        .notes3 p{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+           
+        }
+        .notes3 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+        
+        .notes3 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+
+        .notes3 p{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+          
+           
+        }
+        
+        .notes3 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+          
+           
+        }
+        .donotdisplay3{
+            background-color: black;
+            color: white;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        }
+        
+    
+        
+    /*   notes4*/
+    .notes4{
+        height: auto;
+        width: 60%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 5%;   
+        bottom: 5%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes4 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes4  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes4 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes4 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+        
+        .notes4 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes4 p{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+          
+           
+        }
+        .notes4 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+          
+           
+        }
+        .donotdisplay4{
+            background-color: black;
+            color: white;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        }
+    
+        
+    /*   notes5*/
+    .notes5{
+        height: auto;
+        width: 60%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 5%;   
+        bottom: 5%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes5 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes5  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes5 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes5 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+        
+        .notes5 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes5 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+          
+           
+        }
+        .donotdisplay5{
+            background-color: black;
+            color: white;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        }
+    
+        
+    /*   notes*/
+    .notes6{
+        height: auto;
+        width: 60%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 5%;   
+        bottom: 5%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes6 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes6  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes6 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes6 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+        
+        .notes6 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes6 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+            font-weight: bold;
+          
+           
+        }
+        .donotdisplay6{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+        }
+.share-container{
+    display: none;
+}
+ footer{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left:0;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
+}
+ @media Screen  and (min-width: 300px) and (max-width: 480px) {
+
+    .videos .video{
+        display: block;
+        margin: 20px;
+        justify-content: center;
+       }
+
+    .video{
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        margin-left: 0px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+        
+    }
+
+
+
+    .video h3{
+   border-radius: 10px;
+   margin: 2%;
+   font-size: 15px;
+    }
+
+    .video img{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        height: 170px;
+    }
+
+    .video iframe{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        
+    }
+    .subjects p{
+        margin: 10px;
+
+ }
+ 
+
+
+
+.hide{
+background-color: gray;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+}
+
+.notes{
+display: none;
+}
+
+/*-------Vectors-------*/
+.notes1-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .notes1-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+    
+    .notes2-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .notes2-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+
+    .notes3-btn{
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        }
+        
+        
+        .notes3-btn:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+        }
+    .realtest{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 5%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+    }
+    
+    
+    .realtest:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+    }
+    
+    /*   notes1*/
+    .notes1{
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .notes1 h1 {
+        
+        background-color: black;
+        color: white;
+    }
+    .notes1  ol {
+        
+        padding: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .notes1 ol li{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    
+    .tip{
+        color: green;
+    }
+    .notes1 table{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .notes1 table td{
+        text-align: center;
+        color: black;
+    }
+    .notes1 sup{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+       
+    }
+    
+    .notes1 p{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 12px;
+       
+    }
+    .notes1 sub{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+      
+       
+    }
+    
+    .notes1 span{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+      
+       
+    }
+    .donotdisplay{
+        background-color: black;
+        color: white;
+    color: white;
+    margin-left: 97%;
+    font-size: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+    }
+    
+    /*   notes2*/
+    .notes2{
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .notes2 h1 {
+        
+        background-color: black;
+        color: white;
+    }
+    .notes2  ol {
+        
+        padding: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .notes2 ol li{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px;
+    }
+    
+    
+    .notes2 sup{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+       
+    }
+    
+    .notes2 p{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 12px;
+       
+    }
+    .notes2 sub{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 8px;
+      
+       
+    }
+    
+    .notes2 span{
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 15px;
+      
+       
+    }
+    .donotdisplay2{
+    background-color: black;
+    color: white;
+    margin-left: 97%;
+    font-size: 25px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+    }
+    
+        
+    /*   notes3*/
+    .notes3{
+        height: 80%;
+        width: 80%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes3 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes3  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes3 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes3 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+
+        .notes3 p{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+           
+        }
+        
+        .notes3 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes3 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 15px;
+          
+           
+        }
+        .donotdisplay3{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+ }
+
+         
+    /*   notes4*/
+    .notes4{
+        height: 80%;
+        width: 80%;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        margin-left: 10%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .notes4 h1 {
+            
+            background-color: black;
+            color: white;
+        }
+        .notes4  ol {
+            
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: white;
+        }
+        .notes4 ol li{
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px;
+        }
+        
+        
+        .notes4 sup{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+           
+        }
+
+        .notes4 p{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 12px;
+           
+        }
+        
+        .notes4 sub{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 8px;
+          
+           
+        }
+        
+        .notes4 span{
+            background-color: black;
+            color: white;
+            border: none;
+            font-size: 15px;
+          
+           
+        }
+        .donotdisplay4{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 25px;
+        margin-top: 0px;
+        cursor: pointer;
+        
+ }
+ footer{
+    background-color: black;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+    margin-left: 50%;
+}
+
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left: 4%;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 7%;
+}
+ }

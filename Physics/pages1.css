@@ -1,0 +1,5708 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 12px;
+}
+.home{
+    height: 20%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo{
+    font-family:'Dancing Script', cursive;
+    top: 0;
+    font-size: 80px;
+    margin-left: 50%;
+    font-weight: 700;
+    
+
+   }
+   .logo img{
+    width: 15px;
+    padding-left: 6px;
+    
+   }
+
+   
+
+   body img{
+    display: none;
+   }
+   .solveforxd h1{
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+   }
+
+   .videos .video{
+    display: inline-grid;
+    margin: 20px;
+    justify-content: center;
+   }
+
+.video{
+    border-radius: 10px;
+    width: 25%;
+    height: 80%;
+    margin-left: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+    
+}
+
+.video:hover{
+    
+ 
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.video h3{
+border-radius: 10px;
+margin: auto;
+font-size: 15px;
+text-align: center;
+}
+
+.video img{
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height: 170px;
+}
+
+.video iframe{
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    margin: 10px;
+    height: auto;
+    
+}
+.video p{
+    margin: 10px;
+    text-align: center;
+}
+
+.revise{
+    display: none;
+}
+
+/*display hover effect*/
+.video:hover .revise{
+display: block;
+
+
+}
+
+   /*periodictable  button */
+.periodictable-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.periodictable-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+
+/*ptable notes */
+
+.periodictable{
+display: none;
+}
+table{
+margin: 20px;
+margin-left: 10%;
+width: 80%;
+
+
+}
+table tr td{
+width: 8px;
+cursor: pointer;
+padding: 5px;
+text-align: center;
+font-weight: bolder;
+}
+.metals{
+border: 1px solid black;
+background-color: burlywood;
+}
+.non-metals{
+border: 1px solid black;
+background-color: green;
+}
+.metalloids{
+border: 1px solid black;
+background-color: yellowgreen;
+}
+
+.noble-gases{
+border: 1px solid black;
+background-color: whitesmoke;
+}
+
+.space{
+width: 20px;
+}
+
+.lathanides{
+margin-top: 10px;
+}
+
+.metals p{
+font-size: 8px;
+padding-bottom: 0 ;
+background-color: burlywood ;
+padding-bottom: 0;
+}
+/*--Alkali Metals-*/
+.am{
+    border: 1px solid black;
+    background-color: plum;
+    }
+.am p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: plum;
+    padding-bottom: 0;
+    
+    }
+/*--Alkaline Earth Metals-*/
+.aem{
+    border: 1px solid black;
+    background-color: silver;
+    }
+.aem p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: silver;
+    padding-bottom: 0;
+    
+    }
+
+    .ptm{
+        border: 1px solid black;
+        background-color: lightblue;
+        }
+    .ptm p{
+        font-size: 8px;
+        padding-bottom: 0 ;
+        background-color: lightblue;
+        padding-bottom: 0;
+        
+        }
+.non-metals p{
+font-size: 8px;
+padding-bottom: 0 ;
+background-color: green;
+}
+
+.metalloids p{
+font-size: 8px;
+padding-bottom: 0 ;
+background-color: yellowgreen;
+}
+
+.noble-gases p{
+font-size: 8px;
+padding-bottom: 0 ;
+background-color: whitesmoke;
+}
+
+.lathanides{
+    border: 1px solid black;
+    background-color: purple;
+    }
+.lathanides p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: purple;
+    padding-bottom: 0;
+    
+    }
+
+    .actinides{
+        border: 1px solid black;
+        background-color: peru;
+        }
+    .actinides p{
+        font-size: 8px;
+        padding-bottom: 0 ;
+        background-color: peru;
+        padding-bottom: 0;
+        
+        }
+
+table tr td:hover{
+transform: scale(1.3);
+
+top: 10%;
+}
+
+.solid{
+    color: black;
+    font-size: 8px;
+}
+
+.liquid{
+    color:blueviolet;
+    font-size: 8px;
+}
+
+.gas{
+    color: red;
+    font-size: 8px;
+}
+
+.state{
+    font-size: 8px;
+}
+.descriptionam{
+    background-color: plum;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .descriptionam h1{
+    background-color: plum;
+    padding-bottom: 10px;
+    }
+    
+    .descriptionam h2{
+    background-color: plum;
+    padding-bottom: 10px;
+    }
+    
+    .descriptionam sup{
+    background-color: plum;
+    padding-bottom: 10px;
+    }
+    .descriptionam p{
+    background-color: plum;
+    padding-bottom: 10px;
+    }
+    
+    .descriptionam ul{
+    background-color: plum;
+    padding-bottom: 10px;
+    }
+    
+    .descriptionam ul li{
+    background-color: plum;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removeam{
+    background-color: plum;
+    color: white;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    
+    }
+  .am{
+    background-color: plum;
+  }
+    .descriptionaem{
+        background-color: silver;
+        height: 80%;
+        width: 30%;
+        padding: 10px;
+        position: fixed;
+        border: 1px solid #ccc;;
+        top: 5%;
+        margin-left: 30%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .descriptionaem h1{
+        background-color: silver;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionaem h2{
+        background-color: silver;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionaem sup{
+        background-color: silver;
+        padding-bottom: 10px;
+        }
+        .descriptionaem p{
+        background-color: silver;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionaem ul{
+        background-color: silver;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionaem ul li{
+        background-color: silver;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        }
+        .removeaem{
+        background-color: silver;
+        color: black;
+        margin-left: 97%;
+        cursor: pointer;
+        font-size: 20px;
+        
+        
+        }
+.aem{
+    background-color: silver;
+}
+        .descriptiontm{
+            background-color: burlywood;
+            height: 80%;
+            width: 30%;
+            padding: 10px;
+            position: fixed;
+            border: 1px solid #ccc;;
+            top: 5%;
+            margin-left: 30%;
+            grid-auto-flow: column;
+            gap:var(--size-3);
+            overflow-y: auto;
+            }
+            .descriptiontm h1{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            }
+            
+            .descriptiontm h2{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            }
+            
+            .descriptiontm sup{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            }
+            .descriptiontm p{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            }
+            
+            .descriptiontm ul{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            }
+            
+            .descriptiontm ul li{
+            background-color: burlywood;;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            }
+            .removetm{
+            background-color: burlywood;;
+            color: black;
+            margin-left: 97%;
+            cursor: pointer;
+            font-size: 20px;
+            }
+    .tm{
+        background-color: burlywood;
+    }     
+
+    .descriptionptm{
+        background-color: lightblue;
+        height: 80%;
+        width: 30%;
+        padding: 10px;
+        position: fixed;
+        border: 1px solid #ccc;;
+        top: 5%;
+        margin-left: 30%;
+        grid-auto-flow: column;
+        gap:var(--size-3);
+        overflow-y: auto;
+        }
+        .descriptionptm h1{
+        background-color: lightblue;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionptm h2{
+        background-color:lightblue;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionptm sup{
+        background-color: lightblue;
+        padding-bottom: 10px;
+        }
+        .descriptionptm p{
+        background-color: lightblue;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionptm ul{
+        background-color: lightblue;
+        padding-bottom: 10px;
+        }
+        
+        .descriptionptm ul li{
+        background-color: lightblue;
+        padding-bottom: 10px;
+        margin-left: 10px;
+        }
+        .removeptm{
+        background-color: lightblue;
+        color: black;
+        margin-left: 97%;
+        cursor: pointer;
+        font-size: 20px;
+        }
+.ptm{
+    background-color: lightblue;
+}  
+
+.metalloidsnotes{
+    background-color: yellowgreen;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .metalloidsnotes h1{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    }
+    
+    .metalloidsnotes h2{
+    background-color:yellowgreen;
+    padding-bottom: 10px;
+    }
+    
+    .metalloidsnotes sup{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    }
+    .metalloidsnotes p{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    }
+    
+    .metalloidsnotes ul{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    }
+    
+    .metalloidsnotes ul li{
+    background-color: yellowgreen;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removemetalloids{
+    background-color: yellowgreen;
+    color: black;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.metalloidsnotes{
+background-color: yellowgreen;
+}
+
+.non-metalsnotes {
+    background-color: green;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .non-metalsnotes  h1{
+    background-color: green;
+    padding-bottom: 10px;
+    }
+    
+    .non-metalsnotes  h2{
+    background-color:green;
+    padding-bottom: 10px;
+    }
+    
+    .non-metalsnotes  sup{
+    background-color:green;
+    padding-bottom: 10px;
+    }
+    .non-metalsnotes  p{
+    background-color: green;
+    padding-bottom: 10px;
+    }
+    
+    .non-metalsnotes ul{
+    background-color: green;
+    padding-bottom: 10px;
+    }
+    
+    .non-metalsnotes  ul li{
+    background-color: green;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removenon-metals {
+    background-color:green;
+    color: black;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.non-metalsnotes {
+background-color: green;
+}
+
+.noblegasesnotes {
+    background-color: whitesmoke;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .noblegasesnotes  h1{
+    background-color:whitesmoke;
+    padding-bottom: 10px;
+    }
+    
+    .noblegasesnotes  h2{
+    background-color:whitesmoke;
+    padding-bottom: 10px;
+    }
+    
+    .noblegasesnotes  sup{
+    background-color:whitesmoke;
+    padding-bottom: 10px;
+    }
+    .noblegasesnotes  p{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    }
+    
+    .noblegasesnotes ul{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    }
+    
+    .noblegasesnotes  ul li{
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removenoblegases {
+    background-color:whitesmoke;
+    color: black;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.noblegasesnotes {
+background-color: whitesmoke;
+}
+
+.lathanidesnotes {
+    background-color: purple;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .lathanidesnotes  h1{
+    background-color:purple;
+    padding-bottom: 10px;
+    }
+    
+    .lathanidesnotes  h2{
+    background-color:purple;
+    padding-bottom: 10px;
+    }
+    
+    .lathanidesnotes  sup{
+    background-color:purple;
+    padding-bottom: 10px;
+    }
+    .lathanidesnotes p{
+    background-color: purple;
+    padding-bottom: 10px;
+    }
+    
+    .lathanidesnotes ul{
+    background-color: purple;
+    padding-bottom: 10px;
+    }
+    
+    .lathanidesnotes ul li{
+    background-color: purple;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removelathanides {
+    background-color:purple;
+    color: black;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.lathanides{
+background-color: purple;
+}
+
+.actinidesnotes {
+    background-color: peru;
+    height: 80%;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    border: 1px solid #ccc;;
+    top: 5%;
+    margin-left: 30%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+    .actinidesnotes  h1{
+    background-color:peru;
+    padding-bottom: 10px;
+    }
+    
+    .actinidesnotes  h2{
+    background-color:peru;
+    padding-bottom: 10px;
+    }
+    
+    .actinidesnotes  sup{
+    background-color:peru;
+    padding-bottom: 10px;
+    }
+    .actinidesnotes p{
+    background-color: peru;
+    padding-bottom: 10px;
+    }
+    
+    .actinidesnotes ul{
+    background-color: peru;
+    padding-bottom: 10px;
+    }
+    
+    .actinidesnotes ul li{
+    background-color: peru;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    }
+    .removeactinides {
+    background-color:peru;
+    color: black;
+    margin-left: 97%;
+    cursor: pointer;
+    font-size: 20px;
+    }
+.actinides{
+background-color: peru;
+}
+.description1{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+.description1 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description1 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description1 sup{
+background-color: Green;
+padding-bottom: 10px;
+}
+.description1 p{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description1 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description1 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+.remove1{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.hydrogen{
+background-color: green;
+}
+
+/*Helium */
+
+.description2{
+background-color: whitesmoke;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description2 h1{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description2 h2{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description2 p{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description2 ol{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description2 sup{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description2 ol li{
+background-color: whitesmoke;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove2{
+background-color: whitesmoke;
+color: black;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.helium{
+background-color: whitesmoke;
+}
+
+/*----Lithium------*/
+.description3{
+background-color: plum;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description3 h1{
+background-color: plum;
+padding-bottom: 10px;
+}
+.description3 h2{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description3 p{
+background-color: plum;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description3 ol{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description3 sup{
+background-color: plum;
+padding-bottom: 10px;
+}
+.description3 ol li{
+background-color: plum;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove3{
+background-color: plum;
+color: black;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.lithium{
+background-color: plum;
+}
+
+/*----Beryllium------*/
+.description4{
+background-color: silver;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description4 h1{
+background-color: silver;
+padding-bottom: 10px;
+}
+.description4 h2{
+background-color: silver;
+padding-bottom: 10px;
+}
+
+.description4 p{
+background-color: silver;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description4 ol{
+background-color: silver;
+padding-bottom: 10px;
+}
+
+.description4 sup{
+background-color: silver;
+padding-bottom: 10px;
+}
+.description4 ol li{
+background-color: silver;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove4{
+background-color: silver;
+color: black;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.beryllium{
+background-color: silver;
+}
+
+/*----Boron------*/
+.description5{
+background-color: yellowgreen;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description5 h1{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+.description5 h2{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+
+.description5 p{
+background-color: yellowgreen;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description5 ol{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+
+.description5 sup{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+.description5 ol li{
+background-color: yellowgreen;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove5{
+background-color: yellowgreen;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.boron{
+background-color: yellowgreen;
+}
+
+/*----Carbon------*/
+.description6{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description6 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description6 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description6 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description6 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description6 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description6 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove6{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.carbon{
+background-color: green;
+}
+
+/*----Nitrogen------*/
+.description7{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description7 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description7 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description7 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description7 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description7 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description7 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove7{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.nitrogen{
+background-color: green;
+}
+
+/*----Oxygen------*/
+.description8{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description8 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description8 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description8 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description8 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description8 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description8 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove8{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.oxygen{
+background-color: green;
+}
+
+/*----Flourine------*/
+.description9{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description9 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description9 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description9 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description9 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description9 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description9 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove9{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.flourine{
+background-color: green;
+}
+
+/*----Neon------*/
+.description10{
+background-color: whitesmoke;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description10 h1{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description10 h2{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description10 p{
+background-color: whitesmoke;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description10 ol{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description10 sup{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description10 ol li{
+background-color: whitesmoke;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove10{
+background-color: whitesmoke;
+color: black;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.neon{
+background-color: whitesmoke;
+}
+
+/*----Sodium------*/
+.description11{
+background-color: plum;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description11 h1{
+background-color: plum;
+padding-bottom: 10px;
+}
+.description11 h2{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description11 p{
+background-color: plum;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description11 ol{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description11 sup{
+background-color: plum;
+padding-bottom: 10px;
+}
+.description11 ol li{
+background-color: plum;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove11{
+background-color: plum;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.sodium{
+background-color: plum;
+}
+
+/*----Magnesium------*/
+.description12{
+background-color: silver;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description12 h1{
+background-color: silver;
+padding-bottom: 10px;
+}
+.description12 h2{
+background-color: silver;
+padding-bottom: 10px;
+}
+
+.description12 p{
+background-color: silver;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description12 ol{
+background-color: silver;
+padding-bottom: 10px;
+}
+
+.description12 sup{
+background-color: silver;
+padding-bottom: 10px;
+}
+.description12 ol li{
+background-color: silver;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove12{
+background-color: silver;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.magnesium{
+background-color: silver;
+}
+
+
+/*----Aluminium------*/
+.description13{
+background-color: lightblue;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description13 h1{
+background-color: lightblue;
+padding-bottom: 10px;
+}
+.description13 h2{
+background-color: lightblue;
+padding-bottom: 10px;
+}
+
+.description13 p{
+background-color:lightblue;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description13 ol{
+background-color: lightblue;
+padding-bottom: 10px;
+}
+
+.description13 sup{
+background-color:lightblue;
+padding-bottom: 10px;
+}
+.description13 ol li{
+background-color: lightblue;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove13{
+background-color: lightblue;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.aluminium{
+background-color: lightblue;
+}
+
+/*----Silicon------*/
+.description14{
+background-color: yellowgreen;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description14 h1{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+.description14 h2{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+
+.description14 p{
+background-color: yellowgreen;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description14 ol{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+
+.description14 sup{
+background-color: yellowgreen;
+padding-bottom: 10px;
+}
+.description14 ol li{
+background-color: yellowgreen;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove14{
+background-color: yellowgreen;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.silicon{
+background-color: yellowgreen;
+}
+
+/*----Phosphorus------*/
+.description15{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description15 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description15 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description15 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description15 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description15 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+
+
+.description15 sub{
+background-color: green;
+padding-bottom: 10px;
+}
+.description15 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove15{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.phosphorus{
+background-color: green;
+}
+
+/*----Sulphur------*/
+.description16{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description16 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description16 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description16 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description16 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description16 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description16 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove16{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.sulphur{
+background-color: green;
+}
+
+/*----Chlorine------*/
+.description17{
+background-color: green;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description17 h1{
+background-color: green;
+padding-bottom: 10px;
+}
+.description17 h2{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description17 p{
+background-color: green;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description17 ol{
+background-color: green;
+padding-bottom: 10px;
+}
+
+.description17 sup{
+background-color: green;
+padding-bottom: 10px;
+}
+.description17 ol li{
+background-color: green;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove17{
+background-color: green;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.chlorine{
+background-color: green;
+}
+
+/*----Argon------*/
+.description18{
+background-color: whitesmoke;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description18 h1{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description18 h2{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description18 p{
+background-color: whitesmoke;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description18 ol{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+.description18 sup{
+background-color: whitesmoke;
+padding-bottom: 10px;
+}
+.description18 ol li{
+background-color: whitesmoke;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove18{
+background-color: whitesmoke;
+color: black;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.argon{
+background-color: whitesmoke;
+}
+
+/*----Potassium------*/
+.description19{
+background-color: plum;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description19 h1{
+background-color:plum;
+padding-bottom: 10px;
+}
+.description19 h2{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description19 p{
+background-color: plum;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description19 ol{
+background-color: plum;
+padding-bottom: 10px;
+}
+
+.description19 sup{
+background-color: plum;
+padding-bottom: 10px;
+}
+.description19 ol li{
+background-color: plum;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove19{
+background-color: plum;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.potassium{
+background-color: plum;
+}
+
+/*----Calcium------*/
+.description20{
+background-color: Silver;
+height: 80%;
+width: 30%;
+padding: 10px;
+position: fixed;
+border: 1px solid #ccc;;
+top: 0%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.description20 h1{
+background-color: Silver;
+padding-bottom: 10px;
+}
+.description20 h2{
+background-color: silver;
+padding-bottom: 10px;
+}
+
+.description20 p{
+background-color: Silver;
+padding-bottom: 10px;
+text-align: left;
+}
+
+
+.description20 ol{
+background-color: Silver;
+padding-bottom: 10px;
+}
+
+.description20 sup{
+background-color: Silver;
+padding-bottom: 10px;
+}
+.description20 ol li{
+background-color: Silver;
+padding-bottom: 10px;
+margin-left: 10px;
+}
+
+.remove20{
+background-color: Silver;
+color: white;
+margin-left: 97%;
+cursor: pointer;
+font-size: 20px;
+
+}
+.calcium{
+background-color: Silver;
+}
+
+.ptable1{
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 60%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.ptable1 h1{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.ptable1 p{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.ptable1 ul{
+
+margin: 10px;
+}
+.ptable1 ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.ptable1 span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.ptable1 sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+/* X for removing the notes modal*/
+.out{
+    background-color: black;
+    color: white;
+margin-left: 95%;
+cursor: pointer;
+font-size: 20px;
+}
+/*property needed for javascript calling*/
+.notes{
+display: none;
+}
+/*work button*/    
+.atoms-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 3%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.atoms-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/* atoms notes*/
+.atomnotes {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 60%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.atomnotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.atomnotes p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.atomnotes ul{
+
+margin: 10px;
+}
+.atomnotes ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.atomnotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.atomnotes sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.atomnotes sup{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.remove{
+    background-color: black;
+    color: white;
+margin-left: 95%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+
+/*--testelectrostatics button*/
+.introtochemtest-btn{
+width: 60%;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+margin: 10%;
+padding: 10px;
+border-radius: 20px;
+margin-left: 12%;
+color: white;
+}
+
+.introtochemtest-btn:hover{
+background-color: white;
+color: black;
+}
+
+.introtochemtest{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.introtochemtest p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.answer{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+
+.answer1{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+  
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.number{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances{
+background-color: black;
+color: white;
+}
+
+.getout1{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*--Question 2--*/
+.introtochemtest1{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.introtochemtest1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number2{
+font-size: 20px;
+margin-left: 20px;
+}
+
+.answer2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+ 
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.chances2{
+background-color: black;
+color: white;
+}
+
+.getout2{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next2{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*--Question 3--*/
+.introtochemtest2{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.introtochemtest2 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer1{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number3{
+font-size: 20px;
+margin-left: 20px;
+}
+
+.answer3{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.chances3{
+background-color: black;
+color: white;
+}
+
+.getout3{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next3{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+.units{
+background-color: white;
+padding: 10px;
+font-size: 20px;
+border-radius: 20px;
+}
+
+/*--Question 4--*/
+.introtochemtest3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.introtochemtest3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer2{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number4{
+font-size: 20px;
+margin-left: 20px;
+}
+
+.answer4{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.chances4{
+background-color: black;
+color: white;
+}
+
+.getout4{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next4{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/* atoms notes*/
+.valence {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 60%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.valence h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.valence  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.valence ul{
+
+margin: 10px;
+}
+.valence  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.valence span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.valence  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.donotshow{
+    background-color: black;
+    color: white;
+color: white;
+margin-left: 91%;
+font-size: 20px;
+margin-top: 0px;
+}
+
+
+/*valence button*/    
+.valence-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.valence-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*electronegativity button*/    
+.electronegativity-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.electronegativity-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/* electronegativity notes*/
+.electronegativitynotes {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 60%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.electronegativitynotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.electronegativitynotes  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.electronegativitynotes ul{
+
+margin: 10px;
+}
+.electronegativitynotes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.electronegativitynotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.electronegativitynotes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+
+.notes{
+display: none;
+}
+/*electronegativity test button*/
+.electronegativitytest-btn{
+text-decoration: none;
+
+margin-left: 5%;
+border-radius: 20px;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.electronegativitytest-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+
+
+
+/*chemical bonding button*/    
+.chemicalbonding-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.chemicalbonding-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/*chemicalbonding  notes*/
+.chemicalbondingnotes {
+height: 60%;
+width: 60%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.chemicalbondingnotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.chemicalbondingnotes  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+
+}
+
+.chemicalbondingnotes ul{
+
+margin: 10px;
+}
+.chemicalbondingnotes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.chemicalbondingnotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.chemicalbondingnotes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.chemicalbondingnotes  sup{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+.hide{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.unhide{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.notes{
+display: none;
+}
+
+/*--Question 5--*/
+.chemicalbonding1{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.chemicalbonding1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer5{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number5{
+font-size: 20px;
+margin-left: 20px;
+}
+
+.answer5{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.chances5{
+background-color: black;
+color: white;
+}
+
+.getout5{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next5{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*question 6*/
+.chemicalbonding2 {
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+
+}
+
+.chemicalbonding2  p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#options{
+background-color: black;
+}
+
+#options button{
+width: 4%;
+border-radius: 40%;
+font-size: larger;
+font-weight: bolder;
+cursor: pointer;
+}
+#options button:hover{
+width: 6%;
+}
+
+
+.getout6{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances6{
+background-color: black;
+color: white;
+}
+
+.next6{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*--Question 7--*/
+.chemicalbonding3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.chemicalbonding3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer7{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+
+.answer7{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.number7{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances7{
+background-color: black;
+color: white;
+}
+
+.getout7{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next7{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*London dispersion   notes*/
+.LondonDforces{
+height: 60%;
+width: 60%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.LondonDforces  h1 {
+
+padding: 10px;
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+.LondonDforces p {
+
+padding: 10px;
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+
+.LondonDforces  ul{
+
+margin: 10px;
+}
+.LondonDforces   ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.cLondonDforces  span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.LondonDforces   sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.LondonDforces   sup{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.undisplay{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+.donotshow{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+
+.notes{
+display: none;
+}
+
+/* LondonDforces button*/
+.LondonDforces-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.LondonDforces-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/* polarity button*/
+.polarity-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.polarity-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*Polarity   notes*/
+.polarity{
+height: 60%;
+width: 60%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.polarity h1 {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.polarity p {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.polarity  ul{
+   
+    margin: 10px;
+}
+.polarity  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.polarity span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.polarity  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.polarity   sup{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    }
+
+    .leave{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+
+    
+/* shapes button*/
+.shapes-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.shapes-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*shapes   notes*/
+.shapes{
+height: 60%;
+width: 60%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.shapes h1 {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.shapes p {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.shapes  ul{
+   
+    margin: 10px;
+}
+.shapes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.shapes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.shapes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.shapes   sup{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    }
+
+    .unleave{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+/*finaltest test button*/
+.finaltest-btn{
+text-decoration: none;
+
+margin-left: 5%;
+border-radius: 20px;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.finaltest-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+
+/*--Question 8--*/
+.final{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.final p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer8{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number8{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances8{
+background-color: black;
+color: white;
+}
+
+.getout8{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next8{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/*--Question 9--*/
+.final1{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.final1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer9{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number9{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances9{
+background-color: black;
+color: white;
+}
+
+.getout9{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next9{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+}
+
+/*--Question 10--*/
+.final2{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.final2 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer10{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number10{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances10{
+background-color: black;
+color: white;
+}
+
+.getout10{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next10{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+}
+
+/*--Question 11--*/
+.final3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.final3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer11{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number11{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances11{
+background-color: black;
+color: white;
+}
+
+.getout11{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next11{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+}
+
+/*--Question 12--*/
+.final4{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+}
+
+.final4 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer12{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.number12{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances12{
+background-color: black;
+color: white;
+}
+
+.getout12{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next12{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+}
+
+.donotdisplay{
+    background-color: black;
+    color: white;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.notes{
+display: none;
+}
+
+
+
+/*inelastic button*/
+.test2{
+text-decoration: none;
+margin-left: 15%;
+border-radius: 20px;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+.test2:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/* Inelastic question 1*/
+
+
+/* Inelastic question 2*/
+.Inelastic2 {
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+
+}
+
+.Inelastic2  p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.Inelastic2 input{
+    width: 50%;
+    border-radius: 0;
+    height: 10%;
+    font-size: 20px;
+}
+
+.answer5{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer5:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+.chances5{
+    background-color: black;
+    color: white;
+}
+.getout5{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 97%;
+    cursor: pointer;
+}
+.next5{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+
+
+/*Share buttons*/
+.share-container{
+    display: none;
+   position: fixed;
+   width: 70%;
+   bottom: -100%;
+   left:15%;
+   right: 15%;
+   background: #2f3640;
+   transition: 4000ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   border-radius: 10px;
+   display: none;
+   
+}
+.share-container.high{
+    bottom: 5%;
+ 
+ }
+ .share-container p{
+    color: white;
+    margin: 30px;
+    font-size: 10px;
+    padding: 5px;
+    background-color:  #2f3640;
+ }
+ 
+ .share-container{
+    left: 10%;
+ }
+ 
+ .share-btn{
+    margin-left: 80%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    
+ }
+ 
+ .share-btn a{
+ 
+ text-decoration: none;
+ color: white;
+ font-weight: 300;
+ background-color: black;
+ padding: 10px;
+ }
+ 
+ .share-btn:hover{
+    width: 110px;
+ }
+ .share-container.high{
+    bottom: 10%;
+ }
+ 
+ .closebtn{
+    color: white;
+    margin-left: 95%;
+    margin-top: 2%;
+    background-color:  #2f3640;
+    cursor: pointer;
+ }
+ .interactivept{
+ 
+    position: fixed;
+    background-color: whitesmoke;
+  width: 100%;
+    margin-bottom: 0%;
+    height: auto;
+ }
+
+ .interactivept p{
+    font-size: 16px;
+    margin: 10px;
+    background-color: whitesmoke;
+ }
+
+ .interactivept .clickhere{
+    font-size: 16px;
+  
+    text-decoration: underline;
+    background-color: whitesmoke;
+    cursor: pointer;
+ }
+
+ .displayvideo{
+    width: 100%;
+    margin-top: 7%;
+    border: 0.05rem solid black;
+    border-radius: 10px;
+    margin-left: 0%;
+    background: white;
+    position: fixed;
+    height: 80%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+
+ }
+
+ .displayvideo h1{
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif ;
+    margin-left: 10%;
+    text-align: center;
+ }
+
+ .displayvideo h2{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif ;
+    margin-left: 10%;
+    text-align: center;
+ }
+
+ .displayvideo ul{
+    display: block;
+ }
+
+ .displayvideo ul li{
+    list-style: none;
+    padding: 10px;
+ }
+
+ .displayvideo .backhome{
+
+    width: 3%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 0%;
+    margin-top: 1%;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ footer{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left:0;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
+}
+
+ /* periodictable*/
+ 
+ .periodictable-btn{
+    text-decoration: none;
+    color: white;
+   margin-top: 10%; 
+    margin-left: 4%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+   }     
+   .periodictable-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+   }
+
+        
+
+
+ @media Screen  and (min-width: 300px) and (max-width: 480px) {
+
+    .videos .video{
+        display: block;
+        margin: 20px;
+        justify-content: center;
+       }
+
+    .video{
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        margin-left: 0px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+        
+    }
+
+  
+
+    .video h3{
+   border-radius: 10px;
+   margin: 2%;
+   font-size: 15px;
+    }
+
+    .video img{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        height: 170px;
+    }
+
+    .video iframe{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        
+    }
+    .subjects p{
+        margin: 10px;
+
+ }
+ 
+ body img{
+    display: block;
+   }
+.out{
+background-color: gray;
+color: white;
+margin-left: 97%;
+}
+
+.pad{
+display: none;
+}
+
+.periodictabler{
+    display: none;
+}
+table{
+    margin: 20px;
+    margin-left: 10%;
+    width: 50%;
+ 
+
+ }
+ table tr td{
+    width: 10px;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+ }
+.metals{
+    border: 1px solid black;
+    background-color: burlywood;
+}
+.non-metals{
+    border: 1px solid black;
+    background-color: green;
+}
+.metalloids{
+    border: 1px solid black;
+    background-color: yellowgreen;
+}
+
+.noble-gases{
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.space{
+    width: 20px;
+}
+
+.lathanides{
+    margin-top: 10px;
+}
+
+.metals p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: burlywood ;
+    padding-bottom: 0;
+}
+
+.non-metals p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: green;
+}
+
+.metalloids p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: yellowgreen;
+}
+
+.noble-gases p{
+    font-size: 8px;
+    padding-bottom: 0 ;
+    background-color: whitesmoke;
+}
+/*periodictable  button */
+.periodictable-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.periodictable-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/*ptable notes */
+
+.ptable1{
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 80%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.ptable1 h1{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.ptable1 p{
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
+.ptable1 ul{
+
+margin: 10px;
+}
+.ptable1 ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.ptable1 span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.ptable1 sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+/* X for removing the notes modal*/
+.out{
+    background-color: black;
+    color: white;
+margin-left: 95%;
+cursor: pointer;
+font-size: 20px;
+}
+/*property needed for javascript calling*/
+.notes{
+display: none;
+}
+/*work button*/    
+.atoms-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 3%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.atoms-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/* atoms notes*/
+.atomnotes {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 80%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.atomnotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.atomnotes p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.atomnotes ul{
+
+margin: 10px;
+}
+.atomnotes ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.atomnotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.atomnotes sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.atomnotes sup{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    }
+.remove{
+    background-color: black;
+    color: white;
+margin-left: 95%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+
+/*--testelectrostatics button*/
+.introtochemtest-btn{
+width: 60%;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+margin: 10%;
+padding: 10px;
+border-radius: 20px;
+margin-left: 12%;
+color: white;
+}
+
+.introtochemtest-btn:hover{
+background-color: white;
+color: black;
+}
+
+.introtochemtest{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.introtochemtest p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.answer{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer1{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer1:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances{
+background-color: black;
+color: white;
+}
+
+.getout1{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/*--Question 2--*/
+.introtochemtest1{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.introtochemtest1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer2{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer2:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number2{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances2{
+background-color: black;
+color: white;
+}
+
+.getout2{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next2{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/*--Question 3--*/
+.introtochemtest2{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.introtochemtest2 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer1{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer3{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer3:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number3{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances3{
+background-color: black;
+color: white;
+}
+
+.getout3{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next3{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+.units{
+background-color: white;
+padding: 10px;
+font-size: 20px;
+border-radius: 20px;
+}
+
+/*--Question 4--*/
+.introtochemtest3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.introtochemtest3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer2{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+
+.answer4{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer4:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number4{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances4{
+background-color: black;
+color: white;
+}
+
+.getout4{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next4{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/* atoms notes*/
+.valence {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 80%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.valence h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.valence  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.valence ul{
+
+margin: 10px;
+}
+.valence  ul li{
+    background-color: black;
+    color: white;
+color: black;
+padding: 10px;
+}
+
+.valence span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.valence  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.donotshow{
+    background-color: black;
+    color: white;
+color: white;
+margin-left: 91%;
+font-size: 20px;
+margin-top: 0px;
+}
+
+
+/*valence button*/    
+.valence-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.valence-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*electronegativity button*/    
+.electronegativity-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.electronegativity-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/* electronegativity notes*/
+.electronegativitynotes {
+height: 70%;
+background-color: black;
+color: white;
+border-radius: 10px;
+width: 80%;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.electronegativitynotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.electronegativitynotes  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.electronegativitynotes ul{
+
+margin: 10px;
+}
+.electronegativitynotes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.electronegativitynotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.electronegativitynotes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+.donotdisplay{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 95%;
+    font-size: 20px;
+}
+
+.notes{
+display: none;
+}
+/*electronegativity test button*/
+.electronegativitytest-btn{
+text-decoration: none;
+color: white;
+margin-left: 5%;
+border-radius: 20px;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.electronegativitytest-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+
+
+
+/*chemical bonding button*/    
+.chemicalbonding-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.chemicalbonding-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+/*chemicalbonding  notes*/
+.chemicalbondingnotes {
+height: 60%;
+width: 80%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.chemicalbondingnotes h1{
+    background-color: black;
+    color: white;
+margin: 10px;
+}
+
+.chemicalbondingnotes  p{
+    background-color: black;
+    color: white;
+margin: 10px;
+
+}
+
+.chemicalbondingnotes ul{
+
+margin: 10px;
+}
+.chemicalbondingnotes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.chemicalbondingnotes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.chemicalbondingnotes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+.unhide{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.notes{
+display: none;
+}
+
+/*--Question 5--*/
+.chemicalbonding1{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.chemicalbonding1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer5{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+
+.answer5{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer5:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number5{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances5{
+background-color: black;
+color: white;
+}
+
+.getout5{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next5{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/*question 6*/
+.chemicalbonding2 {
+height: 100%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 0%;
+width: 80%;
+margin-left: 10%;
+
+}
+
+.chemicalbonding2  p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#options{
+background-color: black;
+}
+
+#options button{
+width: 4%;
+border-radius: 40%;
+font-size: larger;
+font-weight: bolder;
+cursor: pointer;
+}
+#options button:hover{
+width: 6%;
+}
+
+.getout6{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances6{
+background-color: black;
+color: white;
+}
+
+.next6{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+
+cursor: pointer;
+
+}
+
+/*--Question 7--*/
+.chemicalbonding3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.chemicalbonding3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer7{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer7{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer7:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number7{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances7{
+background-color: black;
+color: white;
+}
+
+.getout7{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next7{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/*London dispersion   notes*/
+.LondonDforces{
+height: 60%;
+width: 80%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.LondonDforces  h1 {
+
+padding: 10px;
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+.LondonDforces p {
+
+padding: 10px;
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+
+.LondonDforces  ul{
+
+margin: 10px;
+}
+.LondonDforces   ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.cLondonDforces  span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.LondonDforces   sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.LondonDforces   sup{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.undisplay{
+    background-color: black;
+    color: white;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+.donotshow{
+    background-color: black;
+    color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+}
+
+.notes{
+display: none;
+}
+
+/* LondonDforces button*/
+.LondonDforces-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.LondonDforces-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/* polarity button*/
+.polarity-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.polarity-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*Polarity   notes*/
+.polarity{
+height: 60%;
+width: 80%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.polarity h1 {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.polarity p {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.polarity  ul{
+   
+    margin: 10px;
+}
+.polarity  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.polarity span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.polarity  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.polarity   sup{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    }
+
+    .leave{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+
+    
+/* shapes button*/
+.shapes-btn{
+text-decoration: none;
+color: white;
+margin-top: 10%;
+margin-bottom: 10%;
+margin-left: 5%;
+border-radius: 20px;
+background-color: black;
+color: white;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.shapes-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+/*shapes   notes*/
+.shapes{
+height: 60%;
+width: 80%;
+background-color: black;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+
+.shapes h1 {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.shapes p {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.shapes  ul{
+   
+    margin: 10px;
+}
+.shapes  ul li{
+    background-color: black;
+    color: white;
+padding: 10px;
+}
+
+.shapes span{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.shapes  sub{
+    background-color: black;
+    color: white;
+font-weight: 700;
+}
+
+.shapes   sup{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    }
+
+    .unleave{
+        background-color: black;
+        color: white;
+        margin-left: 97%;
+        font-size: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+/*finaltest test button*/
+.finaltest-btn{
+text-decoration: none;
+color: white;
+margin-left: 5%;
+border-radius: 20px;
+color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+padding: 10px;
+width: 60%;
+border: none;
+cursor: pointer;
+}
+
+
+.finaltest-btn:hover{
+font-weight: bolder;
+background-color: white;
+color: black;
+border: 0.1rem solid black;
+border-radius: 20px;
+}
+
+
+/*--Question 8--*/
+.final{
+height: 100%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.final p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer8{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer8{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer8:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number8{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances8{
+background-color: black;
+color: white;
+}
+
+.getout8{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next8{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+
+}
+
+/*--Question 9--*/
+.final1{
+height: 100%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.final1 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer9{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer9{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer9:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number9{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances9{
+background-color: black;
+color: white;
+}
+
+.getout9{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next9{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+}
+
+/*--Question 10--*/
+.final2{
+height: 100%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.final2 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer10{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer10{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer10:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number10{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances10{
+background-color: black;
+color: white;
+}
+
+.getout10{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next10{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+}
+
+/*--Question 11--*/
+.final3{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.final3 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer11{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer11{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer11:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number11{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances11{
+background-color: black;
+color: white;
+}
+
+.getout11{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next11{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+}
+
+/*--Question 12--*/
+.final4{
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 80%;
+margin-left: 10%;
+}
+
+.final4 p{
+background-color: black;
+color: white;
+font-size: 15px;
+margin: 10px;
+}
+
+.correctanswer12{
+height: 10%;
+width: 50%;
+border-radius: 20px;
+}
+.answer12{
+    text-decoration: none;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.answer12:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.number12{
+font-size: 20px;
+margin-left: 20px;
+}
+.chances12{
+background-color: black;
+color: white;
+}
+
+.getout12{
+background-color: black;
+color: white;
+font-size: 20px;
+margin-left: 97%;
+cursor: pointer;
+}
+
+.next12{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 80%;
+cursor: pointer;
+}
+
+
+
+.share-container{
+    position: fixed;
+   width: 100%;
+   height: 35%;
+   bottom: -100%;
+   left:0;
+   right: 0;
+   background: whitesmoke;
+   transition: 400ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   display: block;
+   
+}
+.share-container.high{
+    bottom: 0%;
+ 
+ }
+ .share-container p{
+  color: black;
+    margin: 30px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: whitesmoke;
+ }
+ 
+ 
+ .share-btn{
+    margin-left: 70%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    width: 50px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    
+ }
+ 
+ .share-btn a{
+ 
+ text-decoration: none;
+ color: white;
+ font-weight: 300;
+ background-color: black;
+ padding: 10px;
+ }
+ 
+ .share-btn:hover{
+    width: 110px;
+ }
+ .share-container.high{
+    bottom: 0%;
+ }
+ 
+ .closebtn{
+     color: black;
+    margin-left: 90%;
+    margin-top: 2%;
+    background-color:  whitesmoke;
+    cursor: pointer;
+    font-size: 15px;
+ }
+
+ .interactivept{
+ 
+    position: fixed;
+    background-color: whitesmoke;
+  
+    margin-bottom: 0%;
+    height: auto;
+ }
+
+ .interactivept p{
+    font-size: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+ }
+
+ .interactivept .clickhere{
+    font-size: 10px;
+  
+    text-decoration: underline;
+    background-color: whitesmoke;
+    cursor: pointer;
+ }
+
+ .displayvideo{
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 5%;
+    border: 0.05rem solid black;
+    border-radius: 10px;
+    background: white;
+    position: fixed;
+    height: 90%;
+
+ }
+
+ .displayvideo h1{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif ;
+    font-style: italic;
+ }
+
+ .displayvideo h2{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif ;
+    font-style: italic;
+ }
+
+ 
+
+ .displayvideo p{
+    font-size: 10px;
+    padding: 10px;
+   font-family: 'Montserrat', sans-serif ;
+ }
+
+ 
+ .displayvideo .backhome{
+    
+    width: 3%;
+    text-align: center;
+    border-radius: 40%;
+    margin-left: 95%;
+    margin-top: 1%;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ footer{
+    background-color: white;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+    margin-left: 50%;
+}
+
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left: 4%;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 7%;
+}
+}
+
+
+   
+

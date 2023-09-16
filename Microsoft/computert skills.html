@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="Images/New_Logo-removebg-preview.png"/>
+    <link rel="stylesheet" href="pages2.css">
+    <title>Introduction to Computer Skills</title>
+</head>
+<body>
+    <div class="home">
+        <div class="logo">
+            <i>Ecolie</i> </div>
+
+    
+
+    <div class="videos">
+        <div class="video">
+         
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vKauB_ui598?si=xidQu7AIakyqFwHy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p>Using the Keyboard and Mouse to interact with the computer.
+            <button class="notes1-btn">Guide</button>
+          </p>
+         
+          </div>
+
+          <div class="notes1 notes">
+            <div class="donotdisplay">&times;</div>
+
+        <h1>&approx; Stands for approximately or around.</h1>
+            <ol>
+               
+                <li><h1>Tabs, ribbons and launch button &approx; 3:14 - &approx; 4:20</h1></li>
+                <p>Ribbon is what is under a tab.</p> <br>
+                <p>launch button gives you more options under a particular ribbon.</p>
+               
+                
+                <li><h1>Adding text in a slide &approx; 4:41 - &approx; 5:15</h1></li>
+                <p></p>
+                <li>
+                    <h1>Inserting a new slide &approx; 5:19 - &approx; 6:55</h1>
+                </li>
+
+              <p></p>
+                
+              
+              <li><h1>Inserting text-box &approx; 6:53 - &approx; 8:08</h1></li>
+              <p>Putting your text inside a text-box helps you change angles of your text.
+              </p>
+                
+              <li><h1>Putting your slide on Presentation mode &approx; 8:15 - &approx; 9:12</h1> </li>
+                <p></p>
+
+                <li><h1>Designing your slide &approx; 10:15 - &approx; 11:12</h1> </li>
+                <p></p>
+
+                <li><h1>Customizing your background &approx; 12:22 - &approx; 14:56</h1> </li>
+                <p></p>
+
+                <li><h1>Text-options &approx; 14:58 - &approx; 16:36</h1> </li>
+                <p></p>
+
+                <li><h1>Inserting Wordart &approx; 16:36 - &approx; 17:13</h1> </li>
+                <p></p>
+
+                <li><h1>Working with images &approx; 17:17 - &approx; 23:34</h1> </li>
+                <p></p>
+
+                <li><h1>Adding slide transitions and animations &approx; 17:17 - &approx; 23:34</h1> </li>
+                <p>Slide transitions and animations are used in a slideshow to add visual movement as one slide changes to another during a presentation. 
+                    Slide transitions add to the professional appearance of the slideshow, draw attention to specific important slides and grab attention from your audience.</p>
+              </ol>  
+
+           </div>
+       
+       
+
+        <Footer>
+            <ft>
+             <ul>
+               
+               
+                <li><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+                    target="_blank"> Share</a></li>
+                <li><a href="cookies.html">Cookie Policy</a></li>
+                <li><a href="privacypolicy.html">Privacy Policy</a></li>
+             </ul>
+            </ft>
+    
+        </Footer>
+        <div class="socials">
+            <ul>
+               
+                <li><a href="https://www.instagram.com/ecolie_za/"><img src="Images/Icons/icons8-instagram-100.png" width="20px" alt=""></a></li>
+                <li><a href="https://twitter.com/Ecolie_za"><img src="Images/Icons/icons8-twitter-100.png" width="20px" alt=""></a></li>
+                <li><a href="https://www.linkedin.com/company/ecolie-technologies/?viewAsMember=true"><img src="Images/Icons/icons8-linkedin-128.png" width="20px" alt=""></a></li>
+                <li><a href="mailto:info@ecolie.co.za"><img src="Images/Icons/icons8-email-100.png" width="20px" alt=""></a></li>
+            </ul>
+           
+        </div>
+          <div class="copyright">&copy; 2023, Ecolie Technologies. All rights reserved</div>
+</body>
+
+<div class="share-container">
+    <h3 class="closebtn">&times;</h3>
+    <p>Click the share button below to invite your friends, studymates and/or classmates to the site via Whatsapp.</p>
+    <button class="share-btn"><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+        target="_blank"> Share </a></button>
+  
+</div>
+<script>
+     const shareContainer = document.querySelector(".share-container");
+    const shareButton = document.querySelector(".share-btn");
+    const btnCloseModal = document.querySelector(".closebtn");
+        shareButton.addEventListener("click", ()=> {
+            shareContainer.classList.remove("high");
+            localStorage.setItem("shareBunnerDisplayed", "true");
+        });
+        
+        setTimeout(()=> {
+            if(!localStorage.getItem("shareBunnerDisplayed")){
+            shareContainer.classList.add("high")
+            }
+            
+        }, 2000);
+    
+       
+       btnCloseModal.addEventListener('click', ()=> {
+        shareContainer.classList.remove('high');
+       });
+
+           
+//Notes 1
+
+const notesBtn = document.querySelector('.notes1-btn');
+const notes = document.querySelector('.notes1');
+const leave = document.querySelector('.donotdisplay');
+
+notesBtn.addEventListener('click', ()=>{
+notes.classList.remove('notes');
+});
+
+leave.addEventListener('click', ()=>{
+notes.classList.add('notes');
+});
+//Notes 2
+   const notesBtn1 = document.querySelector('.notes2-btn');
+   const notes1 = document.querySelector('.notes2');
+   const donotdisplay1 = document.querySelector('.donotdisplay2');
+
+notesBtn1.addEventListener('click', ()=> {
+    notes1.classList.remove('notes');
+}
+);
+
+donotdisplay1.addEventListener('click', ()=> {
+    notes1.classList.add('notes');
+}
+);
+const referenceNotes = document.querySelector('.wavesnotespad');
+    const referenceBtn= document.querySelector('.wavesnotes-btn');
+    const undisplay = document.querySelector('.undisplay');
+
+   referenceBtn.addEventListener('click', ()=>{
+    referenceNotes.classList.remove('notes');
+
+    });
+
+undisplay.addEventListener('click', ()=>{
+    referenceNotes.classList.add('notes');
+    });
+
+
+
+
+
+</script>
+</html>
