@@ -1,0 +1,2776 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-size: 12px;
+}
+
+.home{
+    height: 20%;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.logo{
+    font-family:'Times New Roman', Times, serif ;
+    top: 0;
+    font-size: 80px;
+    margin-left: 50%;
+    font-weight: 700;
+    
+
+   }
+   .logo img{
+    width: 15px;
+    padding-left: 6px;
+    
+   }
+
+   
+   .solveforxd h1{
+    text-align: center;
+    font-size: larger;
+    font-family:'Courier New', Courier, monospace;
+   }
+
+   .videos .video{
+    display: inline-grid;
+    margin: 20px;
+    justify-content: center;
+   }
+
+.video{
+    border-radius: 10px;
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+   
+    
+}
+
+.video:hover{
+    
+   
+    transform: scale(1.3);
+    
+}
+
+.video h3{
+border-radius: 10px;
+margin: auto;
+font-size: 12px;
+text-align: center;
+}
+
+.video img{
+    border-radius: 10px;
+    margin: 2%;
+    width: 300px;
+    height: 170px;
+}
+
+.video iframe{
+    border-radius: 10px;
+    margin: auto;
+    width: auto;
+    margin-top: 10px;
+    height: auto;
+    
+}
+.video p{
+    margin: 10px;
+    text-align: center;
+}
+
+ 
+.mathbasics a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.mathbasics a:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+.freebodies{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.freebodies:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+.freebodiesnotes{
+background-color: gray;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+}
+
+.out{
+background-color: gray;
+color: white;
+margin-left: 97%;
+}
+
+.pad{
+display: none;
+}
+
+.share-container{
+   position: fixed;
+   width: 70%;
+   bottom: -100%;
+   left:15%;
+   right: 15%;
+   background: #2f3640;
+   transition: 4000ms;
+   box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+   border-radius: 10px;
+   
+}
+.share-container.high{
+    bottom: 5%;
+ 
+ }
+ .share-container p{
+    color: white;
+    margin: 30px;
+    font-size: 10px;
+    padding: 5px;
+    background-color:  #2f3640;
+ }
+ 
+ .share-container{
+    left: 10%;
+ }
+ 
+ .share-btn{
+    margin-left: 80%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    padding: 10px;
+    
+ }
+ 
+ .share-btn a{
+ 
+ text-decoration: none;
+ color: white;
+ font-weight: 300;
+ background-color: black;
+ padding: 10px;
+ }
+ 
+ .share-btn:hover{
+    width: 110px;
+ }
+ .share-container.high{
+    bottom: 10%;
+ }
+ 
+ .closebtn{
+    color: white;
+    margin-left: 95%;
+    margin-top: 2%;
+    background-color:  #2f3640;
+    cursor: pointer;
+ }
+
+footer{
+    background-color: whitesmoke;
+    height: 150px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+ @media Screen  and (min-width: 300px) and (max-width: 480px) {
+
+    .videos .video{
+        display: block;
+        margin: 20px;
+        justify-content: center;
+       }
+
+    .video{
+        /*border: 1px solid black;*/
+        border-radius: 10px;
+        width: 90%;
+        height: 60%;
+        margin-left: 0px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+        
+    }
+
+    .video:hover{
+        
+   
+        background-color: whitesmoke;
+        width: 100%;
+        transform: scale(1.1);
+    }
+
+    .video h3{
+   border-radius: 10px;
+   margin: 2%;
+   font-size: 15px;
+    }
+
+    .video img{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        height: 170px;
+    }
+
+    .video iframe{
+        border-radius: 10px;
+        margin: 2%;
+        width: 95%;
+        
+    }
+    .subjects p{
+        margin: 10px;
+
+ }
+ 
+ .mathbasics{
+    margin: 80px;
+ }
+ .mathbasics a {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+}
+
+.mathbasics a:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+ /*geometry and trig buttons*/
+
+ .trig {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    cursor: pointer; 
+}
+
+.trig:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+ .trig a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+ }
+
+ .trig a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+ }
+
+ .geometry {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    cursor: pointer; 
+}
+
+.geometry:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+ .geometry a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+ }
+
+ .geometry a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+ }
+.freebodies{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.freebodies:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+.freebodiesnotes{
+background-color: gray;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+}
+
+.out{
+background-color: gray;
+color: white;
+margin-left: 97%;
+}
+
+.pad{
+display: none;
+}
+
+.share-container{
+    position: fixed;
+    width: 70%;
+    bottom: -100%;
+    left:15%;
+    right: 15%;
+    background: #2f3640;
+    transition: 4000ms;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+    border-radius: 10px;
+    
+ }
+ .share-container.high{
+     bottom: 5%;
+  
+  }
+  .share-container p{
+     color: white;
+     margin: 30px;
+     font-size: 10px;
+     padding: 5px;
+     background-color:  #2f3640;
+  }
+  
+  .share-container{
+     left: 10%;
+  }
+  
+  .share-btn{
+     margin-left: 70%;
+     margin-bottom: 10%;
+     border-radius: 20px;
+     width: 50px;
+     border: none;
+     background-color: black;
+     padding: 10px;
+     
+  }
+  
+  .share-btn a{
+  
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  background-color: black;
+  padding: 10px;
+  }
+  
+  .share-btn:hover{
+     width: 110px;
+  }
+  .share-container.high{
+     bottom: 10%;
+  }
+  
+  .closebtn{
+     color: white;
+     margin-left: 95%;
+     margin-top: 2%;
+     background-color:  #2f3640;
+     cursor: pointer;
+  }
+ footer{
+    background-color: whitesmoke;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+}
+
+@media Screen and (min-width: 600px) and (max-width: 768px) {
+    .home{
+        height: 20%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .logo{
+        font-family:'Times New Roman', Times, serif ;
+        top: 0;
+        font-size: 80px;
+        margin-left: 50%;
+        font-weight: 700;
+        
+    
+       }
+       .logo img{
+        width: 15px;
+        padding-left: 6px;
+        
+       }
+    
+       
+       .solveforxd h1{
+        text-align: center;
+        font-size: larger;
+        font-family:'Courier New', Courier, monospace;
+       }
+    /* videos container specs*/
+       .videos .video{
+        display: inline-grid;
+        margin: 20px;
+        justify-content: center;
+       }
+    
+    .video{
+        border-radius: 10px;
+        width: 25%;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+        
+    }
+    /* hover effects for all videos */
+
+    .video:hover{
+        
+        transform: scale(1.3);
+    }
+    
+    .video h3{
+    border-radius: 10px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    }
+    
+    .video img{
+        border-radius: 10px;
+        margin: 2%;
+        width: 300px;
+        height: 170px;
+    }
+   /*videos specs */ 
+    .video iframe{
+        border-radius: 10px;
+        margin: auto;
+        width: 90%;
+        margin: 10px;
+        height: auto;
+        
+    }
+    .video p{
+        margin: 10px;
+        text-align: center;
+    }
+    /* Button to take you to maths basics*/
+     
+    .mathbasics a {
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 40%;
+        border-radius: 20px;
+        background-color: gray;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .mathbasics a:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+   /*geometry and trig buttons*/
+
+   .trig {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    cursor: pointer; 
+}
+
+.trig:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+ .trig a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+ }
+
+ .trig a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+ }
+
+ .geometry {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    cursor: pointer; 
+}
+
+.geometry:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+ .geometry a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+ }
+
+ .geometry a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+ }
+ /*test button*/
+ .inclined-forces {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    cursor: pointer; 
+}
+
+.inclined-forces:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+    /*Free bodies notes */
+    .freebodies{
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: gray;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .freebodies:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+ .freebodiesnotes{
+background-color: gray;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+ }
+
+ .out{
+    background-color: gray;
+    color: white;
+    margin-left: 97%;
+ }
+
+ .pad{
+    display: none;
+ }
+
+ /* Share pop-up */
+    .share-container{
+       position: fixed;
+       width: 70%;
+       bottom: -100%;
+       left:15%;
+       right: 15%;
+       background: #2f3640;
+       transition: 4000ms;
+       box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+       border-radius: 10px;
+       
+    }
+    .share-container.high{
+        bottom: 5%;
+     
+     }
+     .share-container p{
+        color: white;
+        margin: 30px;
+        font-size: 10px;
+        padding: 5px;
+        background-color:  #2f3640;
+     }
+     
+     .share-container{
+        left: 10%;
+     }
+     
+     .share-btn{
+        margin-left: 80%;
+        margin-bottom: 10%;
+        border-radius: 20px;
+        width: 100px;
+        border: none;
+        background-color: black;
+        padding: 10px;
+        
+     }
+     
+     .share-btn a{
+     
+     text-decoration: none;
+     color: white;
+     font-weight: 300;
+     background-color: black;
+     padding: 10px;
+     }
+     
+     .share-btn:hover{
+        width: 110px;
+     }
+     .share-container.high{
+        bottom: 10%;
+     }
+     
+     .closebtn{
+        color: white;
+        margin-left: 95%;
+        margin-top: 2%;
+        background-color:  #2f3640;
+        cursor: pointer;
+     }
+/* Footer */
+    footer{
+        background-color: white;
+        height: 150px;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        color: black;
+    }
+    
+    footer ul{
+        
+        text-decoration: none;
+    }
+    footer ul li{
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+    }
+    footer ul li a{
+        color: black;
+        text-decoration: none;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+}
+
+@media Screen and (min-width: 769px) {
+    .home{
+        height: 20%;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .logo{
+        font-family:'Times New Roman', Times, serif ;
+        top: 0;
+        font-size: 80px;
+        margin-left: 50%;
+        font-weight: 700;
+        
+    
+       }
+       .logo img{
+        width: 15px;
+        padding-left: 6px;
+        
+       }
+    
+       
+       .solveforxd h1{
+        text-align: center;
+        font-size: larger;
+        font-family:'Courier New', Courier, monospace;
+       }
+    
+       .videos .video{
+        display: inline-grid;
+        margin: 20px;
+        justify-content: center;
+       }
+    
+    .video{
+        border-radius: 10px;
+        width: 25%;
+        height: 80%;
+        margin-left: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+       
+        
+    }
+    
+    .video:hover{
+        
+        transform: scale(1.3);
+        border-radius: 10px;
+        border: solid 1px black;
+    }
+    
+    .video h3{
+    border-radius: 10px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    }
+    
+    .video img{
+        border-radius: 10px;
+        margin: 2%;
+        width: 300px;
+        height: 170px;
+    }
+    
+    .video iframe{
+        border-radius: 10px;
+        margin: auto;
+        width: 90%;
+        margin: 10px;
+        height: auto;
+        
+    }
+    .video p{
+        margin: 10px;
+        text-align: center;
+    }
+
+    .revise{
+        display: none;
+    }
+
+    /*display hover effect*/
+.video:hover .revise{
+    display: block;
+   
+
+}
+/*trig link*/
+    .trig {
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40%;
+        border-radius: 20px;
+        background-color: orangered;
+        padding: 10px;
+        width: 20%;
+        border: none;
+        cursor: pointer; 
+    }
+
+    .trig:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+     .trig a{
+        background-color: orangered;
+        text-decoration: none;
+        color: white;
+     }
+   
+     .trig a:hover{
+        background-color: white;
+        text-decoration: none;
+        color: black;
+     }
+
+     /*geometry link*/
+
+     .geometry {
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40%;
+        border-radius: 20px;
+        background-color: orangered;
+        padding: 10px;
+        width: 20%;
+        border: none;
+        cursor: pointer; 
+    }
+
+    .geometry:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+     .geometry a{
+        background-color: orangered;
+        text-decoration: none;
+        color: white;
+     }
+   
+     .geometry a:hover{
+        background-color: white;
+        text-decoration: none;
+        color: black;
+     }
+/*test button*/
+     .inclined-forces {
+        text-decoration: none;
+        color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 40%;
+        border-radius: 20px;
+        background-color: orangered;
+        padding: 10px;
+        width: 20%;
+        border: none;
+        cursor: pointer; 
+    }
+
+    .inclined-forces:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+    /*maths basics link*/
+    .mathbasics a {
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 40%;
+        border-radius: 20px;
+        background-color: gray;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .mathbasics a:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+       /*Free bodies button */
+    .freebodies{
+        text-decoration: none;
+        color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: gray;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .freebodies:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+ /*Free bodies notes */
+ .freebodiesnotes{
+background-color: gray;
+color: white;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+ }
+ /* X for removing the notes modal*/
+ .out{
+    background-color: gray;
+    color: white;
+    margin-left: 97%;
+ }
+/*property needed for javascript calling*/
+ .pad{
+    display: none;
+ }
+/*work button*/    
+ .work{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.work:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/* work notes*/
+.worknotes {
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+}
+
+.worknotes ol li{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+}
+
+
+.worknotes ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+.remove{
+background-color: gray;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+}
+
+.kindle{
+display: none;
+}
+
+/*calculatingwork button*/    
+.calculatingwork{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.calculatingwork:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/* calculatingwork notes*/
+.calculatingworknotes {
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+}
+
+.calculatingworknotes ol li{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+}
+
+
+.calculatingworknotes ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+.hide{
+background-color: gray;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+}
+
+.notes{
+display: none;
+}
+/*Test Your knowledge button*/
+.test{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: green;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.test:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+/*Momentum*/
+
+/*Impulse and momentum button*/    
+.impulse-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.impulse-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/*Impulse and momentum   notes*/
+.impulsenotes {
+height: 60%;
+width: 30%;
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 30%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.impulsenotes  ol li{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+}
+
+
+.impulsenotes  ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+.hide{
+background-color: gray;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.notes{
+display: none;
+}
+/*conservation of momentum notes*/
+.momconservation-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.momconservation-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/*Impulse and momentum   notes*/
+.momentumnotes{
+height: 60%;
+width: 30%;
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 30%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.momentumnotes ol li{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+}
+
+
+.momentumnotes  ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+.donotshow{
+    background-color: gray;
+    color: white;
+    margin-left: 97%;
+    font-size: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.notes{
+display: none;
+}
+
+/*Elastic collision*/
+.collision-btn{
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.collision-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/*Collison   notes*/
+.collisionnotes{
+height: 60%;
+width: 30%;
+background-color: gray;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+margin-left: 10%;
+grid-auto-flow: column;
+gap:var(--size-3);
+overflow-y: auto;
+}
+
+.collisionnotes ol li{
+    background-color: gray;
+    border: none;
+    padding: 10px;
+}
+
+
+.collisionnotes  ol {
+    
+    padding: 10px;
+    text-decoration: none;
+    background-color: gray;
+}
+.donotdisplay{
+background-color: gray;
+color: white;
+margin-left: 97%;
+font-size: 20px;
+margin-top: 0px;
+cursor: pointer;
+
+}
+
+.notes{
+display: none;
+}
+
+/*momentumtest1*/
+.momemtumtest1{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+
+  
+    }
+
+    .momemtumtest1 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+   .momemtumtest1 input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .answer1{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer1:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+.chances{
+    background-color: black;
+    color: white;
+}
+
+.getout1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 97%;
+    cursor: pointer;
+}
+
+.next{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+
+/*momentumtest2*/
+.momemtumtest2{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+  
+    }
+
+    .momemtumtest2 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+   .momemtumtest2 input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .answer2{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer2:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+    .chances2{
+        background-color: black;
+        color: white;
+    }
+    .getout2{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    .next2{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    
+    }
+
+    /*momentumtest3*/
+.momemtumtest3{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+  
+    }
+
+    .momemtumtest3 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+   .momemtumtest3 input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .check3{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .check3:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+    .chances3{
+        background-color: black;
+        color: white;
+    }
+    .getout3{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    .next3{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    
+    }
+
+
+ /*inelastic button*/
+ .test2{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: green;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.test2:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/* Inelastic question 1*/
+ .Inelastic1 {
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+  
+    }
+
+    .Inelastic1  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+#options{
+background-color: black;
+}
+
+#options button{
+width: 4%;
+border-radius: 40%;
+font-size: larger;
+font-weight: bolder;
+cursor: pointer;
+}
+#options button:hover{
+width: 6%;
+}
+
+.getout4{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances4{
+background-color: black;
+color: white;
+}
+
+.next4{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/* Inelastic question 2*/
+.Inelastic2 {
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+
+}
+
+.Inelastic2  p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+    .Inelastic2 input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .answer5{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer5:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+    .chances5{
+        background-color: black;
+        color: white;
+    }
+    .getout5{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    .next5{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    
+    }
+
+
+/*Share buttons*/
+    .share-container{
+       position: fixed;
+       width: 70%;
+       bottom: -100%;
+       left:15%;
+       right: 15%;
+       background: #2f3640;
+       transition: 4000ms;
+       box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+       border-radius: 10px;
+       
+    }
+    .share-container.high{
+        bottom: 5%;
+     
+     }
+     .share-container p{
+        color: white;
+        margin: 30px;
+        font-size: 10px;
+        padding: 5px;
+        background-color:  #2f3640;
+     }
+     
+     .share-container{
+        left: 10%;
+     }
+     
+     .share-btn{
+        margin-left: 80%;
+        margin-bottom: 10%;
+        border-radius: 20px;
+        width: 100px;
+        border: none;
+        background-color: black;
+        padding: 10px;
+        
+     }
+     
+     .share-btn a{
+     
+     text-decoration: none;
+     color: white;
+     font-weight: 300;
+     background-color: black;
+     padding: 10px;
+     }
+     
+     .share-btn:hover{
+        width: 110px;
+     }
+     .share-container.high{
+        bottom: 10%;
+     }
+     
+     .closebtn{
+        color: white;
+        margin-left: 95%;
+        margin-top: 2%;
+        background-color:  #2f3640;
+        cursor: pointer;
+     }
+
+     footer{
+        background-color: white;
+        height: 150px;
+        margin-bottom: 0%;
+        margin-top: 5%;
+        color: black;
+    }
+    
+    footer ul{
+        
+        text-decoration: none;
+    }
+    footer ul li{
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+    }
+    footer ul li a{
+        color: black;
+        text-decoration: none;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+
+
+/* Elastic collision problems*/
+
+ .test3{
+    text-decoration: none;
+    color: white;
+    
+    margin-left: 15%;
+    border-radius: 20px;
+    background-color: green;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.test3:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+/* Inelastic question 1*/
+ .Elastic1 {
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+  
+    }
+
+    .Elastic1  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+#options1{
+background-color: black;
+}
+
+#options1 button{
+width: 4%;
+border-radius: 40%;
+font-size: larger;
+font-weight: bolder;
+cursor: pointer;
+}
+#options1 button:hover{
+width: 6%;
+}
+
+.getout6{
+background-color: black;
+margin-left: 96%;
+color: white;
+font-size: 20px;
+cursor: pointer;
+}
+
+.chances6{
+background-color: black;
+color: white;
+}
+
+.next6{
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 90%;
+cursor: pointer;
+
+}
+
+/* Elastic question 2*/
+.Elastic2 {
+height: 70%;
+background-color: black;
+border-radius: 10px;
+padding: 10px;
+position: fixed;
+top: 10%;
+width: 50%;
+margin-left: 10%;
+
+}
+
+.Elastic2  p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+
+    .Elastic2 input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .answer7{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer7:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+
+    .chances7{
+        background-color: black;
+        color: white;
+    }
+    .getout7{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    .next7{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    
+    }
+
+/* Elastic question 3*/
+.Elastic3 {
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+    
+    }
+    
+    .Elastic3  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+        .Elastic3 input{
+            width: 50%;
+            border-radius: 0;
+            height: 10%;
+            font-size: 20px;
+        }
+    
+        .answer8{
+            text-decoration: none;
+            color: white;
+            margin-top: 1%;
+            margin-bottom: 10%;
+            margin-left: 15%;
+            border-radius: 20px;
+            background-color: green;
+            padding: 10px;
+            width: 60%;
+            border: none;
+            cursor: pointer;
+        }
+        
+        
+        .answer8:hover{
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+            border: 0.1rem solid black;
+            border-radius: 20px;
+        }
+    
+        .chances8{
+            background-color: black;
+            color: white;
+        }
+        .getout8{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            margin-left: 97%;
+            cursor: pointer;
+        }
+        .next8{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-left: 90%;
+            cursor: pointer;
+        
+        }
+
+        /* Elastic question 4*/
+.Elastic4 {
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+    
+    }
+    
+    .Elastic4  p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+        .Elastic4 input{
+            width: 50%;
+            border-radius: 0;
+            height: 10%;
+            font-size: 20px;
+        }
+    
+        .answer9{
+            text-decoration: none;
+            color: white;
+            margin-top: 1%;
+            margin-bottom: 10%;
+            margin-left: 15%;
+            border-radius: 20px;
+            background-color: green;
+            padding: 10px;
+            width: 60%;
+            border: none;
+            cursor: pointer;
+        }
+        
+        
+        .answer9:hover{
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+            border: 0.1rem solid black;
+            border-radius: 20px;
+        }
+    
+        .chances9{
+            background-color: black;
+            color: white;
+        }
+        .getout9{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            margin-left: 97%;
+            cursor: pointer;
+        }
+        .next9{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin-left: 90%;
+            cursor: pointer;
+        
+        }
+
+        .solving{
+            background-color: white;
+            position: relative;
+            color: black;
+            border-radius: 10px;
+            width: 40% ;
+            position: fixed;
+            top: 10%;
+            left: 30%;
+            border: 1px solid black;
+        }
+        .solution{
+            text-decoration: none;
+            color: white;
+            margin-top: 1%;
+            margin-bottom: 10%;
+            margin-left: 15%;
+            border-radius: 20px;
+            background-color: green;
+            padding: 10px;
+            width: 30%;
+            border: none;
+            cursor: pointer;
+        }
+
+        .solution:hover{
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+            border: 0.1rem solid black;
+            border-radius: 20px;
+        }
+
+        .getoutSol{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            margin-left: 97%;
+            cursor: pointer;
+        }
+     
+        .wavesnotes-btn{
+            text-decoration: none;
+            color: white;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            margin-left: 2%;
+            border-radius: 20px;
+            background-color: gray;
+            padding: 10px;
+            width: 60%;
+            border: none;
+            cursor: pointer;
+        }
+        
+        
+        .wavesnotes-btn:hover{
+            font-weight: bolder;
+            background-color: white;
+            color: black;
+            border: 0.1rem solid black;
+            border-radius: 20px;
+        }
+        .wavesnotespad {
+            height: 70%;
+            background-color: gray;
+            border-radius: 10px;
+            width: 30%;
+            padding: 10px;
+            position: fixed;
+            top: 10%;
+            margin-left: 10%;
+            grid-auto-flow: column;
+            gap:var(--size-3);
+            overflow-y: auto;
+            }
+
+            .wavesnotespad p{
+                background-color: gray;
+                color: white;
+            }
+
+            sup{
+                background-color: gray;
+                color: white;
+            }
+
+            figcaption caption{
+                background-color: gray;
+                color: white;
+            }
+
+            .testwaves{
+                text-decoration: none;
+                color: white;
+                
+                margin-left: 2%;
+                border-radius: 20px;
+                background-color: green;
+                padding: 10px;
+                width: 60%;
+                border: none;
+                cursor: pointer;
+            }
+            
+            .testwaves:hover{
+                font-weight: bolder;
+                background-color: white;
+                color: black;
+                border: 0.1rem solid black;
+                border-radius: 20px;
+            }
+
+            .remove{
+                cursor: pointer;
+            }
+            .waves1 {
+                height: 70%;
+                background-color: black;
+                border-radius: 10px;
+                padding: 10px;
+                position: fixed;
+                top: 10%;
+                width: 50%;
+                margin-left: 10%;
+                
+                }
+                
+                .waves1  p{
+                    background-color: black;
+                    color: white;
+                    font-size: 15px;
+                    margin: 10px;
+                }
+                
+                    .waves1 input{
+                        width: 50%;
+                        border-radius: 0;
+                        height: 10%;
+                        font-size: 20px;
+                    }
+
+                    .waves2 {
+                        height: 70%;
+                        background-color: black;
+                        border-radius: 10px;
+                        padding: 10px;
+                        position: fixed;
+                        top: 10%;
+                        width: 50%;
+                        margin-left: 10%;
+                        
+                        }
+                        
+                        .waves2  p{
+                            background-color: black;
+                            color: white;
+                            font-size: 15px;
+                            margin: 10px;
+                        }
+                        
+                            .waves2 input{
+                                width: 50%;
+                                border-radius: 0;
+                                height: 10%;
+                                font-size: 20px;
+                            }
+         .wavestypes-btn{
+                                text-decoration: none;
+                                color: white;
+                               margin-top: 10%; 
+                                margin-left: 14%;
+                                border-radius: 20px;
+                                background-color: green;
+                                padding: 10px;
+                                width: 60%;
+                                border: none;
+                                cursor: pointer;
+                            }
+                            
+              .wavestypes-btn:hover{
+                                font-weight: bolder;
+                                background-color: white;
+                                color: black;
+                                border: 0.1rem solid black;
+                                border-radius: 20px;
+                            }
+
+
+                            .waves3 {
+                                height: 70%;
+                                background-color: black;
+                                border-radius: 10px;
+                                padding: 10px;
+                                position: fixed;
+                                top: 10%;
+                                width: 50%;
+                                margin-left: 10%;
+                                
+                                }
+                                
+                                .waves3  p{
+                                    background-color: black;
+                                    color: white;
+                                    font-size: 15px;
+                                    margin: 10px;
+                                }
+
+                    .right{
+                        border-radius: 45%;
+                        padding: 10px;
+                        cursor: pointer;
+                        font-weight: 800;
+                        border: 1px solid red;
+                    }
+
+                    .wrong{
+                        border-radius: 45%;
+                        padding: 10px;
+                        cursor: pointer;
+                        font-weight: 800;
+                        border: 1px solid red;
+                    }
+
+                    .waves6 {
+                        height: 70%;
+                        background-color: black;
+                        border-radius: 10px;
+                        padding: 10px;
+                        position: fixed;
+                        top: 10%;
+                        width: 50%;
+                        margin-left: 10%;
+                        
+                        }
+                        
+                        .waves6  p{
+                            background-color: black;
+                            color: white;
+                            font-size: 15px;
+                            margin: 10px;
+                        }
+    
+                        .dopplereffect-btn{
+                            text-decoration: none;
+                            color: white;
+                           margin-top: 10%; 
+                            margin-left: 4%;
+                            border-radius: 20px;
+                            background-color: green;
+                            padding: 10px;
+                            width: 60%;
+                            border: none;
+                            cursor: pointer;
+                        }
+                        
+          .dopplereffect-btn:hover{
+                            font-weight: bolder;
+                            background-color: white;
+                            color: black;
+                            border: 0.1rem solid black;
+                            border-radius: 20px;
+                        }
+/*doppler effect 1*/
+
+.dopplereffect{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+
+  
+    }
+
+    .dopplereffect p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .dopplereffect input{
+        width: 50%;
+        border-radius: 0;
+        height: 10%;
+        font-size: 20px;
+    }
+
+    .answer1{
+        text-decoration: none;
+        color: white;
+        margin-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 15%;
+        border-radius: 20px;
+        background-color: green;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+    .answer1:hover{
+        font-weight: bolder;
+        background-color: white;
+        color: black;
+        border: 0.1rem solid black;
+        border-radius: 20px;
+    }
+.chances{
+    background-color: black;
+    color: white;
+}
+
+.getout1{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 97%;
+    cursor: pointer;
+}
+
+.next{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin-left: 90%;
+    cursor: pointer;
+
+
+
+}
+/*doppler effect 2*/
+
+.dopplereffect1{
+    height: 70%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    width: 50%;
+    margin-left: 10%;
+
+  
+    }
+
+    .dopplereffect1 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+    .chances0{
+        background-color: black;
+        color: white;
+    }
+    .getout0{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        margin-left: 97%;
+        cursor: pointer;
+    }
+    .next0{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    
+    }
+
+    
+/*doppler effect 3*/
+    .dopplereffect2{
+        height: 70%;
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        width: 50%;
+        margin-left: 10%;
+    
+      
+        }
+    
+        .dopplereffect2 p{
+            background-color: black;
+            color: white;
+            font-size: 15px;
+            margin: 10px;
+        }
+/*----Coulumbs---*/
+   .coulombsintro-btn{
+    text-decoration: none;
+    color: white;
+   margin-top: 10%; 
+    margin-left: 4%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+   }     
+   .coulombsintro-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+   } 
+.chemistrylink{
+    text-decoration: none;
+    color: white;
+   margin-top: 10%; 
+    margin-left: 18%;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+   }  
+
+   .chemistrylink a{
+    background-color: orangered;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin: 15px;
+   }
+/*----charge notes---*/
+   .chargenotes{
+    height: 70%;
+    background-color: gray;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 10%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+
+    .chargenotes h1{
+        background-color: gray;
+        color: black;
+        margin: 10px;
+    }
+
+    .chargenotes p{
+        background-color: gray;
+        color: black;
+        margin: 10px;
+    }
+
+    sup{
+        background-color: gray;
+        color: black;
+    
+   }
+/*--second coulumbs button*/
+   .coulombsintro1-btn{
+    text-decoration: none;
+    color: white;
+   margin-top: 10%; 
+    margin-left: 4%;
+    border-radius: 20px;
+    background-color: gray;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+   }     
+   .coulombsintro1-btn:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+   } 
+   
+   .chargenotes1{
+    height: 70%;
+    background-color: gray;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    position: fixed;
+    top: 10%;
+    margin-left: 40%;
+    grid-auto-flow: column;
+    gap:var(--size-3);
+    overflow-y: auto;
+    }
+
+    .chargenotes1 h1{
+        background-color: gray;
+        color: black;
+        margin: 10px;
+    }
+
+    .chargenotes1 p{
+        background-color: gray;
+        color: black;
+        margin: 10px;
+    }
+
+    /*--testelectrostatics button*/
+    .testelectrostats{
+        width: 60%;
+        background-color: green;
+        margin: 10%;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 12%;
+        color: white;
+    }
+
+    .testelectrostats:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .electrostatic1{
+        height: 70%;
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .electrostatic1 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .answer{
+        height: 10%;
+        width: 50%;
+        border-radius: 20px;
+    }
+    .number{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .units{
+        background-color: white;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+
+    
+    .electrostatic2{
+        height: 70%;
+        background-color: black;
+        border-radius: 10px;
+        padding: 10px;
+        position: fixed;
+        top: 10%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .electrostatic2 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .correctanswer{
+        height: 10%;
+        width: 50%;
+        border-radius: 20px;
+    }
+
+    .next10{
+        background-color: antiquewhite;
+        padding: 10px;
+        margin-left: 90%;
+        cursor: pointer;
+    }
+}
