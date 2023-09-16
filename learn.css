@@ -1,0 +1,103 @@
+css
+/*Fonts */
+
+font-family property is used to specify font type, e.g arial, serif, sans-serif, etc.
+You can also use open-source google fonts 
+by adding google fonts API on your HTML file header
+
+
+font-style property is used to specify font style, e.g italic, underline, bold, etc.
+
+/*Border */
+
+border-style property is used to specify border style, e.g. border-style: solid;
+border-width property is used to specify border size, e.g border-width: 1px;
+border-color property is used to specify border color, e.g border-color: red;
+
+/*Background */
+
+background: transparent;
+background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255)), linear-gradient allows you to mix colors
+add 'to right', 'to bottom', 'to top', 'to left', to specifiy how your colors should be applied
+background-repeat: no-repeat;
+background-attachment: fixed; makes the background cover the whole element
+/*background-image*/
+background-image: url()
+background-size: cover; this property is used to make your background image responsive to the size of the device screen
+background-position: center; this property is used to center the image
+
+/*Margins*/
+
+margin-left: auto; 
+margin-right: auto;
+this property put you element at the center of your document dynamically.
+
+/*Float*/
+
+float property is used to position text around images 
+
+float: left;
+float: right;
+
+/*position*/
+
+relative
+absolute
+fixed
+sticky,  can be useful freezing your manu bar
+
+/*pseudo classes*/
+:hover
+:visited
+:link 
+
+
+/*shadows*/
+
+text-shadow: 0px 0px 0px transparent grey, text shadow always have three numbers and a color
+first number is for the x-axis, meaning left(-) or right(+)
+second number is for the y-axis, meaning up(-) or down(+)
+third number is for the spread, the low number, the better
+
+box-shadow: 0px 0px 0px grey;
+
+/*transformation*/
+
+transform: translateY(50px)
+transform: translateX(50px)
+or 
+transform: translate(50px, 50px)
+
+transform: rotateX(180deg)
+transform: rotateY(180deg)
+or 
+transform: rotate(180deg, 180deg)
+
+transform: scaleX(2) increases the size by 2 time left to right
+transform: scaleY(2) increases the size by 2 times up-down
+
+or 
+transform: scale(2, 2)
+
+transform: skewX(45deg)
+transform: skewY(45deg)
+or 
+transform: skew(45deg, 0deg)
+
+/*animations*/
+
+.container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    animation: mycontainer;
+    animation-duration: 5s;
+    animation-timing-function: linear; or ease or ease-out or ease-in;
+    animation-iteration-count: infinite; to make the animation keep going nonstop
+}
+@keyframes mycontainer {
+ from{margin-left: 100%}
+ to{margin-left: 0}
+
+}

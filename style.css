@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
+*{
+    background-color: white;
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-right: 40%;
+    margin-left: 15px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    margin-bottom: 10px;
+   
+       
+}
+body{
+    margin-top: 1%;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+
+.menu-bar li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.menu-bar li a{
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+    margin-left: 0%;
+   
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.menu-bar li a:hover{
+    text-decoration: underline aqua;
+}
+.menu-bar li a:active{
+    text-decoration: underline aqua;
+}
+
+.adbunner{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 5%;
+    height: 50%;
+    
+  }
+  .adbunner video{
+    opacity: 80%;
+    
+      }
+    
+      .adbunner p{
+    padding: 10px;
+      }
+    
+          .adbunner .message{
+            width: 35%;
+            font-size: 12px;
+            position: absolute;
+            padding-bottom: 20px;
+            top: 8%;
+            color: black;
+         
+        font-family:  'Montserrat', sans-serif;
+        background: transparent;
+        margin-left: 30%;
+        text-align: center;
+        font-weight: 600;
+            
+    
+            
+          }
+    
+       
+    
+    
+    
+    .adbunner p span{
+        color: aqua;
+        font-weight: 900;
+        background: transparent;
+    }
+
+      .adbunner .message{
+        width: 40%;
+        font-size: 40px;
+        position: absolute;
+    font-family:  'Montserrat', sans-serif;
+    text-align:left;
+        
+
+        
+      }
+
+
+
+
+.adbunner p span{
+    font-weight: 700;
+}
+
+.adbunner button{
+    background-color: aqua;
+    border: none;
+   
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.adbunner button:hover{
+  color: white;
+  background-color: black;
+}
+
+.adbunner  span{
+    color: aqua;
+    font-weight: 900;
+    background: transparent;
+} 
+
+.adbunner p {
+background: none;
+}
+
+.arrow{
+    justify-content: center;
+    margin-left: 45%;
+}
+.introvideo{
+    position: fixed;
+    top: 10%;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    background-color: whitesmoke;
+}
+.notes{
+    display: none;
+}
+
+.getout{
+   margin-left: 1%; 
+   font-size: 20px;
+   font-weight: 700;
+   background-color: whitesmoke;
+   cursor: pointer;
+
+
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.topics h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.links{
+    
+    width: 20%;
+    height: 20%;
+    margin: 20px 20px 0px 20px;
+    display: inline-block;
+    border: 0.01rem solid grey;
+    border-radius: 5px;
+}
+
+/*.links:hover{
+    transform: scale(1.3);
+}*/
+.display img{
+    height: 200px;
+}
+.covered{
+    background-color: white;
+ 
+
+}
+
+.covered h5{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 3%;
+    text-decoration: underline aqua !important;
+}
+
+.covered a{
+    background-color: aquamarine;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.covered a:hover{
+   background-color: black;
+   color: white;
+}
+.covered p{
+
+    margin-left: 0%;
+    font-size: 10px;
+    text-align: left;
+}
+
+
+
+/*-------About Us----------*/
+
+.ourmission{
+    margin-top: 10%;
+}
+
+.ourmission h1{
+  font-family:'Montserrat'; 
+  font-size: 14px;
+  margin-top: 20px;
+  
+}
+
+
+  .ourmission p{
+    font-family:'Montserrat'; 
+    padding-bottom: 20px;
+    font-size: 12px;
+
+
+     
+   }
+
+  .adbunner{
+    width: 100%;
+    height: 50%;
+   
+  }
+  .adbunner p{
+    font-size: 20px;
+  }
+.cookie-container{
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    bottom: -100%;
+    left:0;
+    right: 0;
+    background: whitesmoke;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+    
+}
+
+.cookie-container.active{
+    bottom: 0;
+   
+
+}
+.cookie-container p{
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background: whitesmoke;
+}
+
+.cookie-container p a{
+font-size: 16px;
+background: whitesmoke;
+}
+.cookie-btn{
+    left: 80%;
+    right: 0;
+    margin-bottom: 80%;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cookie-btn:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+footer{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+.socials{
+    background-color: black;
+
+    height: auto;
+    margin-left:0;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    list-style: none;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 0%;
+}
+@media screen and (min-width: 300px) and (max-width: 480px){
+ 
+    .logo{
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        margin-right: 40%;
+        margin-left: 15px;
+    }
+    
+    html{
+        scroll-behavior: smooth;
+    }
+    header{
+        position: fixed;
+        top: 0%;
+        width: 100%;
+        margin-left: 0;
+        right: 0;
+       margin-bottom: 15%;
+        background-color: white;
+      
+      
+
+   
+    }
+
+    .body{
+        margin-top: 40%;
+    }
+  
+    
+  
+    .menu-bar ul{
+        list-style-type: none;
+        margin-left: 0%;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .menu-bar li{
+        display: block;
+        margin-right: 10px;
+        padding: 10px;
+    
+    }
+    
+    .menu-bar li a{
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 12px;
+        margin-left: 0%;
+       
+        border: none;
+        padding: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+    .menu-bar li a:hover{
+        text-decoration: underline aqua;
+    }
+
+     
+.adbunner{
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20%;
+    align-content: center;
+    justify-content: center;
+    height: 100v;
+  
+   
+    
+  }
+  .adbunner video{
+opacity: 70%;
+z-index: -1;
+
+  }
+
+  .adbunner p{
+padding: 10px;
+  }
+
+      .adbunner .message{
+        margin-top: 7%;
+      
+        font-size: 12px;
+        position: absolute;
+        padding-bottom: 20px;
+       
+        color: black;
+     
+    font-family:  'Montserrat', sans-serif;
+    background: transparent;
+ 
+    text-align: center;
+    font-weight: 700;
+        
+
+        
+      }
+
+   
+.adbunner p{
+    background: none;
+    font-size: 9px
+}
+.adbunner  span{
+    color: aqua;
+    font-weight: 900;
+    background: transparent;
+} 
+
+.arrow{
+   
+    margin-left: 5%;
+}
+    h2{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+    .topics h2{
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .links{
+        
+        width: 90%;
+        height: auto;
+        margin: 20px 20px 20px 20px;
+        display: block;
+      
+        border-radius: 10px;
+    }
+    
+   
+    .display img{
+        height: 200px;
+        border-radius: 5px;
+    }
+    .covered{
+        background-color: white;
+     
+    
+    }
+    
+    .covered h5{
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        text-decoration: underline aqua !important ;
+    }
+    
+    .covered button{
+        background-color: aquamarine;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: auto;
+    }
+    
+    .covered button:hover{
+       background-color: azure;
+    }
+    .covered p{
+    
+        margin-left: 0%;
+        font-size: 10px;
+        text-align: left;
+    }
+    .ourmission{
+        margin-top: 30%;
+    }
+    
+    .ourmission h1{
+      font-family:'Montserrat'; 
+      font-size: 14px;
+      margin-top: 20px;
+      
+    }
+  
+.testquestions{
+    display: flex;
+}
+    
+.testquestions img{
+    width: 35%;
+}
+.cookie-container{
+    position: fixed;
+    width: 100%;
+    height: 35%;
+    bottom: -100%;
+    left:0;
+    right: 0;
+    background: whitesmoke;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
+    
+}
+
+.exitpopup{
+    background-color: black;
+    
+    width: 100%;
+    height: 20%;
+    
+
+}
+
+.exitpopup video{
+    width: 100%;
+    height: 20%;
+}
+
+
+.exitpopup h1{
+    margin-left: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}
+
+.cookie-container.active{
+    bottom: 0;
+   
+
+}
+.cookie-container p{
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+.cookie-container p a{
+font-size: 16px;
+}
+.cookie-btn{
+    left: 60%;
+    right: 0;
+    margin-bottom: 80%;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cookie-btn:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+footer{
+    background-color: white;
+    height: auto;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    color: black;
+}
+
+footer ul{
+    
+    text-decoration: none;
+}
+footer ul li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+    margin-left: 50%;
+}
+
+.socials{
+    background-color: white;
+
+    height: auto;
+    margin-left: 4%;
+}
+
+.socials ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.copyright{
+    margin-left: 7%;
+       font-size: 12px;
+}
+
+
+}

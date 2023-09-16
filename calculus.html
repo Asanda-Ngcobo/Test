@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HZ3PLN5FZP"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-HZ3PLN5FZP');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VTPBB2Q2F"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-2VTPBB2Q2F');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-238019491-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-238019491-1');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="Images/icons8-microorganism-60.png"/>
+    <link rel="stylesheet" href="pages.css">
+    <title>Calculus</title>
+</head>
+<body>
+    <div class="home">
+        <div class="logo">
+            <i>Ecolie</i> <img src="Images/icons8-microorganism-60.png" alt=""></div>
+
+    
+
+    <div class="videos">
+        <div class="video">
+         
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tt2DGYOi3hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, understanding the first principle 1</h3>
+          <p>
+           Understanding the first principle of calculus instead of cramming.
+          </p>
+          </div>
+
+
+        <div class="video">
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/50Bda5VKbqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, understanding the first principle 2</h3>
+            <p>   Understanding the first principle of calculus instead of cramming.
+            </p> 
+        </div>
+
+        <div class="video">
+           
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fXYhyyJpFe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, applying the first principle 1</h3>
+            <p>
+               
+            </p> 
+        </div>
+      
+        <div class="video">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Un0RcTMPJ64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, applying the first principle 2</h3>
+            <p> 
+                
+               
+            </p> 
+        </div>
+
+        <div class="video">
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rn6NzdcPzSA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, applying the first to X<sup>3</sup></h3>
+            <p> 
+                
+               
+            </p> 
+        </div>
+          
+
+        <div class="video">
+                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WsQQvHm4lSw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Introduction to calculus, limits, derivatives and intergrals</h3>
+            <p> 
+                
+               
+            </p> 
+        </div>
+       
+
+    <Footer>
+        <ft>
+         <ul>
+            <li>&copy; 2020 - 2023 The Provokative Group Pty Ltd</li>
+            <li><a href=""><img src="Images/icons8-facebook-48.png" width="20px" alt=""></a></li>
+            <li><a href="https://www.instagram.com/ecolie_za/"><img src="Images/instagram.png" width="20px" alt=""></a></li>
+            <li><a href="mailto:info@ecolie.co.za">Suggestions and Queries</a></li>
+            <li><a href="privacy.html">Cookie Policy</a></li>
+            <li><a href="privacypolicy.html">Privacy Policy</a></li>
+         </ul>
+        </ft>
+    </Footer>
+</body>
+
+<div class="share-container">
+    <h3 class="closebtn">&times;</h3>
+    <p>Click the share button below to invite your friends, studymates and/or classmates to the site via Whatsapp.</p>
+    <button class="share-btn"><a href="whatsapp://send?text=https://www.ecolie.co.za"       data-action="share/whatsapp/share"  
+        target="_blank"> Share </a></button>
+    
+</div>
+<script>
+     const shareContainer = document.querySelector(".share-container");
+    const shareButton = document.querySelector(".share-btn");
+    const btnCloseModal = document.querySelector(".closebtn");
+        shareButton.addEventListener("click", ()=> {
+            shareContainer.classList.remove("high");
+            localStorage.setItem("shareBunnerDisplayed", "true");
+        });
+        
+        setTimeout(()=> {
+            if(!localStorage.getItem("shareBunnerDisplayed")){
+            shareContainer.classList.add("high")
+            }
+            
+        }, 2000);
+    
+       
+       btnCloseModal.addEventListener('click', ()=> {
+        shareContainer.classList.remove('high');
+       });
+
+    
+</script>
+</html>
