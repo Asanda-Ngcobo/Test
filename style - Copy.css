@@ -22,8 +22,7 @@ nav{
      top: 0;
      height: 15%;
      margin-bottom: 5%;
-     border-bottom: 0.3px solid whitesmoke;
-     box-shadow: 0px 0.7px 1px whitesmoke;
+    
   
  }
 
@@ -35,7 +34,7 @@ nav{
     display: none;
 }
 nav ul{
-margin-left: 40%;
+margin-left: 30%;
 margin-top: 1.5%;
 }
 
@@ -46,6 +45,8 @@ nav ul li{
 nav ul li a{
    text-decoration: none;
    color: aquamarine;
+   font-weight: bolder;
+   font-size: 15px;
 }
 
 nav ul li:last-child{
@@ -102,6 +103,7 @@ h4{
     margin-top: 3%;
     text-decoration: underline;
     color: aqua;
+    margin-left: 5%;
 }
 
 .first__section{
@@ -114,6 +116,7 @@ section{
 .section__1{
     width: 100%;
     background-color: whitesmoke;
+    height: 100vh;
   
 }
 
@@ -341,6 +344,7 @@ footer ul li a img:hover{
 .mobile__header{
     
     position: relative;
+    margin-top: 10%;
 }
      #logo{
         display: inline-flex;
@@ -355,10 +359,10 @@ footer ul li a img:hover{
     }
      .nav__links{
      margin-left: 0%;
-     height: 85vh;
+     height: 80.7vh;
      width: 70%;
      top: 5%;
-     background-color: aquamarine;
+     background-color: whitesmoke;
      color: white;
      font-weight: 700;
      
@@ -373,8 +377,12 @@ footer ul li a img:hover{
      .start__now{
         display: block;
        
+       
     }
     
+    .button{
+        margin-left: 10%;
+    }
     .remove{
         display: block;
     }
@@ -389,7 +397,7 @@ footer ul li a img:hover{
          display: block;
          padding: 10px;
          padding: 20px;
-         background-color: aquamarine;
+         background-color: whitesmoke;
          margin-left: 0;
      }
      
@@ -397,8 +405,8 @@ footer ul li a img:hover{
         display: block;
     }
      nav ul li a{
-        background-color: aquamarine;
-        color: white;
+        background-color: whitesmoke;
+        color: black;
      }
      nav ul li button{
          border: 0.5px solid black;
@@ -421,11 +429,12 @@ footer ul li a img:hover{
         
      }
      .header__title h1{
-        font-size: 30px;
+        font-size: 50px;
+        font-weight: bolder;
      }
      h4{
          margin-top: 10%;
-         font-size: 12px;
+         font-size: 14px;
      }
      .visuals img{
     width: 105%;
@@ -436,6 +445,7 @@ footer ul li a img:hover{
      }
      #commitment{
         margin-top: 10%;
+        margin-left: 1%;
      }
      #commitment h2{
         display: inline;
@@ -452,18 +462,21 @@ footer ul li a img:hover{
         font-size: 16px;
      }
 
-     .start__now{
-        align-items: center;
-        margin-left: 35%;
-        border: none;
-        border-radius: 15px;
-        padding: 7px;
-        background-color: aquamarine;
-        margin-top: 10%;
-        font-weight: 600;
+      .button{
+        text-decoration: none;
         color: white;
+        
+        margin-left: 20%;
+        border-radius: 20px;
+        color: black;
         font-family: 'Montserrat', sans-serif;
-        box-shadow: 0.5px 0.5px 1px black;
+        background-color: aqua;
+        font-weight: 700;
+        padding: 10px;
+        width: 60%;
+        border: none;
+        cursor: pointer;
+        margin-top: 4%;
      }
     
      
@@ -626,12 +639,12 @@ footer ul li a img:hover{
     color: black;
     margin: 10px;
     padding: 5px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: whitesmoke;
 }
 
 .cookie-container p a{
-font-size: 16px;
+font-size: 12px;
 }
 .cookie-btn{
     left: 60%;
