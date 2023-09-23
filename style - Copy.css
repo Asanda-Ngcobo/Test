@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
 *{
-    background-color: white;
+    background: rgb(248, 246, 246);
 }
 .logo{
     font-family: 'Dancing Script', cursive;
@@ -22,6 +22,7 @@ nav{
      top: 0;
      height: 15%;
      margin-bottom: 5%;
+   
     
   
  }
@@ -44,9 +45,7 @@ nav ul li{
     font-weight: bolder;
 }
 
-nav ul li:first{
-    margin-left: 0;
-}
+
 nav ul li a{
    text-decoration: none;
    color: black;
@@ -56,26 +55,22 @@ nav ul li a{
 
 nav ul li:hover{
     cursor: pointer;
-    background-color: whitesmoke;
+   text-decoration: underline;
    padding: 10px;
-   border-radius: 10px;
+
 }
 
 nav ul li:last-child{
     display: none;
 }
 nav ul li a:hover{
-    background-color: whitesmoke;
+    background-color: aqua;
    padding: 10px;
    border-radius: 10px;
     
 }
 
-nav ul li a:active{
-    background-color: whitesmoke;
 
-   
-}
 
 .hide{
     display: none;
@@ -112,18 +107,18 @@ nav ul li:hover .sub__menu-1{
    
 }
 
+
+
 .sub__menu-1 ul li a{
     cursor: pointer;
 }
 
-.sub__menu-1 ul li a:hover{
-   background-color: whitesmoke;
+.sub__menu-1 a:hover{
+ text-decoration: underline;
    padding: 10px;
-   border-radius: 10px;
+   
 }
-.sub__menu-1 ul li:last-child{
-    border-bottom: none;
-}
+
 nav ul li button{
     border: 0.5px solid black;
     border-radius: 10px;
@@ -138,6 +133,7 @@ header{
     
 }
 .header__title{
+    
     display: inline-flex;
     margin-left: 2%;
    
@@ -146,12 +142,13 @@ header{
    font-size: 60px;
 
 }
-
-
-.header__title img{
-    border-radius: 10px;
-    margin-right: 5%;
+.header__title h1 span{
+    color: aquamarine;
 }
+
+
+
+
 h4{
     margin-top: 10%;
     font-size: 20px;
@@ -161,6 +158,31 @@ h4{
  display: none;
 }
 
+.numbers{
+    width: 94%;
+    display: flex;
+    padding: 30px;
+    gap: 10%;
+    justify-items: center;
+    background: aquamarine;
+    border-radius: 10px;
+ }
+
+ .numbers .data{
+    background: aquamarine;
+    width: 33%;
+   
+ }
+
+ .data h2{
+    background: aquamarine;
+    color: white ;
+    font-weight: bolder;
+ }
+ .data p{
+    background: aquamarine;
+    font-weight: bolder;
+ }
 .start__now{
     display: none;
 }
@@ -168,12 +190,13 @@ h4{
 .remove{
     display: none;
 }
-.btn--text{
+.btn--text a{
     border: none;
     margin-top: 3%;
     text-decoration: underline;
     color: aqua;
     margin-left: 5%;
+    border: none;
 }
 
 .first__section{
@@ -185,24 +208,21 @@ section{
 
 .section__1{
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     height: 100vh;
   
 }
 
-.section__1 h2{
-    background-color: whitesmoke;
-}
 
-.section__1 h3{
-    background-color: whitesmoke;
-}
+
+
 .content{
     display: flex;
   width: 80%;
     padding: 10px;
     margin-left: 10%;
     padding: 30px;
+  
     box-shadow: 1px 1px 2px white;
     margin-top: 1%;
     border-radius: 10px;
@@ -212,7 +232,7 @@ section{
 
 
 .content p{
- 
+   
     margin-top: 5%;
     width: 50%;
     margin: 10%;
@@ -238,7 +258,7 @@ h2{
 
 .content h2{
     margin: 10%;
-    background-color: white;
+    
 }
 .links{
     
@@ -257,7 +277,7 @@ h2{
     height: 200px;
 }
 .covered{
-    background-color: white;
+    background-color:  rgb(248, 246, 246);;
  
 
 }
@@ -297,7 +317,7 @@ h2{
     z-index: 1;
     left:0;
     right: 0;
-    background: whitesmoke;
+    background: white;
     transition: 400ms;
     box-shadow: 0 -2px 16px rgba(47, 54, 64, alpha);
     
@@ -313,12 +333,12 @@ h2{
     margin: 10px;
     padding: 5px;
     font-size: 16px;
-    background: whitesmoke;
+    background: white;
 }
 
 .cookie-container p a{
 font-size: 16px;
-background: whitesmoke;
+background: white;
 }
 .cookie-btn{
     left: 80%;
@@ -367,7 +387,7 @@ footer ul li a img:hover{
     width: 25px;
 }
 .socials{
-    background-color: black;
+  
 
     height: auto;
     margin-left:0;
@@ -386,7 +406,9 @@ footer ul li a img:hover{
     margin-left: 0%;
 }
 @media screen and (min-width: 300px) and (max-width: 480px){
- 
+    *{
+        background:  rgb(248, 246, 246);
+    }
     .logo{
         font-family: 'Dancing Script', cursive;
         font-size: 20px;
@@ -396,7 +418,7 @@ footer ul li a img:hover{
     
     html{
         scroll-behavior: smooth;
-        background-color: white;
+     
     }
 
 
@@ -410,6 +432,10 @@ footer ul li a img:hover{
          border-bottom: 1px whitesmoke;
        
       
+     }
+
+     #header{
+        height: 100vh;
      }
 .mobile__header{
     
@@ -429,7 +455,7 @@ footer ul li a img:hover{
     }
      .nav__links{
      margin-left: 0%;
-     height: 80.7vh;
+     min-height: 80.7vh;
      width: 70%;
      top: 5%;
      background-color: whitesmoke;
@@ -455,14 +481,12 @@ footer ul li a img:hover{
     }
     .remove{
         display: block;
-    }
-     .remove{
         color: black;
         background-color: aquamarine;
         margin-left: 105%;
         font-size: 25px;
-       
-     }
+    }
+     
      nav ul li{
          display: block;
          padding: 10px;
@@ -491,6 +515,46 @@ footer ul li a img:hover{
          font-weight: 700;
      }
 
+     nav ul li:hover .sub__menu-1{
+        display: block;
+        
+        transition: 200ms;
+        position: absolute;
+        height: auto;
+      margin-top: 10px;
+      margin-left: 110px;
+      box-shadow: 0px 2px 3px black;
+      border-radius: 10px;
+    
+    }
+    
+    .sub__menu-1 ul{
+        display: block;
+        margin: 10px;
+    }
+    
+    .sub__menu-1 ul li{
+        display: block;
+        width: 150px;
+        padding: 20px;
+        
+        background: transparent;
+        text-align: left;
+       
+    }
+    
+    .sub__menu-1 ul li a{
+        cursor: pointer;
+        background-color: white;
+        
+    }
+    
+    .sub__menu-1 ul li a:hover{
+       background-color: whitesmoke;
+       padding: 10px;
+       border-radius: 10px;
+    }
+
      header{
          height: 100vh;
          margin-top: 30%;
@@ -503,23 +567,28 @@ footer ul li a img:hover{
         
      }
      .header__title h1{
-        font-size: 50px;
+        font-size: 40px;
         font-weight: bolder;
      }
      h4{
          margin-top: 10%;
          font-size: 14px;
      }
-     .visuals img{
-    width: 105%;
-    margin-left: -2%;
-    margin-right: -2    ;
-    
-     
+  
+
+     .numbers{
+        width: 85%;
+        display: flex;
+        padding: 30px;
+        gap: 10%;
+        margin-top: 10%;
      }
+
+    
+
      #commitment{
         margin-top: 10%;
-        margin-left: 1%;
+       
      }
      #commitment h2{
         display: inline;
@@ -559,13 +628,14 @@ footer ul li a img:hover{
          margin-top: 10%;
          text-decoration: underline;
          color: black;
-         margin-left: 40%;
+         margin-left: 30%;
      }
      .first__section{
         margin-top: 25%;
     }
      section{
          border-top: 0.4px solid whitesmoke;
+         background: rgb(248, 246, 246);
      }
      
      .content{
@@ -574,6 +644,7 @@ footer ul li a img:hover{
          margin-left: 1.5%;
          
          justify-items: center;
+       
      }
      
      p{
@@ -584,6 +655,7 @@ footer ul li a img:hover{
          margin-top: 5%;
          font-size: 8px;
          width: 80%;
+       
          
      }
      
@@ -600,6 +672,7 @@ footer ul li a img:hover{
      h2{
          margin-left: 10%;
          font-size: 10px;
+      
      }
   
     
@@ -621,7 +694,7 @@ footer ul li a img:hover{
         border-radius: 5px;
     }
     .covered{
-        background-color: white;
+        background-color: rgb(248, 246, 246);
      
     
     }
@@ -682,27 +755,7 @@ footer ul li a img:hover{
     
 }
 
-.exitpopup{
-    background-color: black;
-    
-    width: 100%;
-    height: 20%;
-    
 
-}
-
-.exitpopup video{
-    width: 100%;
-    height: 20%;
-}
-
-
-.exitpopup h1{
-    margin-left: 10px;
-    color: white;
-    font-family: 'Montserrat';
-    font-size: 12px;
-}
 
 .cookie-container.active{
     bottom: 0;
@@ -735,18 +788,19 @@ font-size: 12px;
     font-weight: 500;
 }
 footer{
-    background-color: white;
+    background-color:rgb(248, 246, 246);
     height: auto;
     margin-bottom: 0%;
-    margin-top: 5%;
+   margin-left: 0;
     width:100%;
    
     color: black;
 }
 
 footer ul{
-    margin-left: -2%;
+    margin-left: 0%;
     text-decoration: none;
+    background-color: rgb(248, 246, 246);
 }
 footer ul li{
     display: block;
@@ -755,6 +809,7 @@ footer ul li{
     padding: 20px;
     text-align: left;
     font-size: 10px;
+    background-color: rgb(248, 246, 246);
 }
 footer ul li a{
     color: black;
@@ -772,7 +827,7 @@ footer ul li a img:hover{
 }
 
 .socials{
-    background-color: white;
+    background-color: rgb(248, 246, 246);
 width: 100%;
     height: auto;
     margin-left: 0;
