@@ -149,7 +149,7 @@
    <button class="answer5">Check</button>
    
    <p class="label-score5">Chances: <span class="chances5">1</span></p>
-   <p class="message5">You only get one chance for this question. 
+   <p class="message5">You only get one chance for this question.  start your answer with a capital letter.
     </p>
 
    <button class="next5 notes">Finish</button>
@@ -201,7 +201,7 @@
  <div class="testyourself10 notes">
   <div class="getout10">&times;</div>
 
-  <p class="question10"> Solve the following: <br>
+  <p class="question10"> Is the product, Negative or Positive? <br>
        <b class="interger9">0</b> x (<b class="interger10">0</b>)
       </p>
       
@@ -210,7 +210,7 @@
  <button class="answer10">Check</button>
  
  <p class="label-score10">Chances: <span class="chances10">1</span></p>
- <p class="message10">You get two chances per question. 
+ <p class="message10">You get two chances per question.  start your answer with a capital letter.
   </p>
 
  <button class="next10 notes">Next</button>
@@ -219,7 +219,7 @@
 <div class="testyourself11 notes">
   <div class="getout11">&times;</div>
 
-  <p class="question11"> Solve the following: <br>
+  <p class="question11"> Is the Quotient, Negative or Positive? <br>
        <b class="interger11">0</b> &div; (<b class="interger12">0</b>)
       </p>
       
@@ -228,7 +228,7 @@
  <button class="answer11">Check</button>
  
  <p class="label-score11">Chances: <span class="chances11">1</span></p>
- <p class="message11">You get two chances per question. If answer is a decimal, round up to two decimal places. 
+ <p class="message11">You get two chances per question.  start your answer with a capital letter.
   </p>
 
  <button class="next11 notes">Finish</button>
@@ -508,7 +508,7 @@
   <div class="getout14">&times;</div>
 
   <p class="question14"> Solve the following: <br>
-       <b class="interger19">0</b>/<b class="interger20">0</b>  / <b class="interger21">0</b>/<b class="interger22">0</b> 
+       <b class="interger19">0</b>/<b class="interger20">0</b>  &div; <b class="interger21">0</b>/<b class="interger22">0</b> 
       </p>
       
   <input type="" class="input14">
@@ -1124,7 +1124,7 @@ submit6.addEventListener('click', () => {
 
 document.querySelector('.getout6').addEventListener('click', () => {
   question6.classList.add('notes');
-  location.reload();
+ 
 
 });
 
@@ -1201,7 +1201,7 @@ submit7.addEventListener('click', () => {
 
 document.querySelector('.getout7').addEventListener('click', () => {
   question7.classList.add('notes');
-  location.reload();
+ 
 });
 
 const generated5 = document.querySelector('.interger5');
@@ -1274,7 +1274,7 @@ submit8.addEventListener('click', () => {
 
 document.querySelector('.getout8').addEventListener('click', () => {
   question8.classList.add('notes');
-  location.reload();
+  
 });
 
 
@@ -1348,12 +1348,12 @@ submit9.addEventListener('click', () => {
 
 document.querySelector('.getout9').addEventListener('click', () => {
   question9.classList.add('notes');
-  location.reload();
+ 
 });
 
 document.querySelector('.next9').addEventListener('click', () => {
   question9.classList.add('notes');
-  location.reload();
+  
 });
 
 
@@ -1660,10 +1660,7 @@ submit12.addEventListener('click', () => {
 
 document.querySelector('.getout12').addEventListener('click', () => {
   question12.classList.add('notes');
-  interger13 = Math.floor(Math.random() * 20);
-  interger14 = Math.floor(Math.random() * 20) ;
  
-  solve6 = (interger13 / interger14).toFixed(2);
 })
 
 //Question 13
