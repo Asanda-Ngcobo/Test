@@ -40,7 +40,9 @@ startNowBtn[i].addEventListener('click', openModal);
 
 remove.addEventListener('click', closeModal);
    
-
+for(let i = 0; i <pages.length; i++){
+  pages[i].addEventListener('click', closeModal);
+}
 
 
  
