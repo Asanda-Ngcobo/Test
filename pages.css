@@ -263,6 +263,11 @@ padding: 10px;
     background-color: black;
 }
 
+.completingasquare h1{
+    color: white;
+    background-color: black;
+}
+
 .completingasquare  ol {
 
 padding: 10px;
@@ -628,6 +633,7 @@ margin-left: 1%;
 }
 
 
+
 .answer1:hover{
     font-weight: bolder;
     background-color: white;
@@ -879,6 +885,12 @@ margin-left: 1%;
     font-size: 12px;
 }
 
+.solveforxfact4 h1{
+    background-color: black;
+    color: white;
+    font-size: 100px;
+    margin: 10px;
+}
 .answer4{
     text-decoration: none;
     color: white;
@@ -931,6 +943,143 @@ cursor: pointer;
 
 }
 
+.interger1{
+    background-color: black;
+}
+
+.interger2{
+    background-color: black;
+}
+.interger3{
+    background-color: black;
+}
+
+.interger4{
+    background-color: black;
+}
+.interger5{
+    background-color: black;
+}
+
+.interger6{
+    background-color: black;
+}
+.interger7{
+    background-color: black;
+}
+
+.interger8{
+    background-color: black;
+}
+
+.interger9{
+    background-color: black;
+}
+
+.interger10{
+    background-color: black;
+}
+.interger11{
+    background-color: black;
+}
+
+.interger12{
+    background-color: black;
+}
+
+.interger13{
+    background-color: black;
+}
+
+.interger14{
+    background-color: black;
+}
+.interger15{
+    background-color: black;
+}
+
+.interger16{
+    background-color: black;
+}
+
+.interger17{
+    background-color: black;
+}
+
+.interger18{
+    background-color: black;
+}
+.interger19{
+    background-color: black;
+}
+
+.interger20{
+    background-color: black;
+}
+
+.interger21{
+    background-color: black;
+}
+
+.interger22{
+    background-color: black;
+}
+
+.interger23{
+    background-color: black;
+}
+
+.interger24{
+    background-color: black;
+}
+
+.interger25{
+    background-color: black;
+}
+
+.interger26{
+    background-color: black;
+}
+
+.interger27{
+    background-color: black;
+}
+
+.interger28{
+    background-color: black;
+}
+
+.interger29{
+    background-color: black;
+}
+
+.interger30{
+    background-color: black;
+}
+
+.interger31{
+    background-color: black;
+}
+
+.interger32{
+    background-color: black;
+}
+
+.interger33{
+    background-color: black;
+}
+
+.interger34{
+    background-color: black;
+}
+
+.interger35{
+    background-color: black;
+}
+
+.interger36{
+    background-color: black;
+}
 /* Solve for x using quadratic 2*/
 .solveforxfact5 {
 height: 80%;
@@ -1025,6 +1174,51 @@ font-size: 15px;
 }
 
 .test3:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+
+.test5{
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.test5:hover{
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 0.1rem solid black;
+    border-radius: 20px;
+}
+.test6{
+    text-decoration: none;
+    color: white;
+    margin-left: 15%;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+    font-weight: 700;
+    padding: 10px;
+    width: 60%;
+    border: none;
+    cursor: pointer;
+}
+
+.test6:hover{
     font-weight: bolder;
     background-color: white;
     color: black;
@@ -1794,8 +1988,259 @@ font-weight: 700;
                                 cursor: pointer;
                             
                             }
-                
+          
+  /**Question 15**/                          
+                            .testyourself15 {
+                                height: 80%;
+                                background-color: black;
+                                border-radius: 10px;
+                                padding: 10px;
+                                position: fixed;
+                                top: 10%;
+                                width: 80%;
+                                margin-left: 5%;
+                                
+                                }
+                                
+                                .testyourself15  p{
+                                    background-color: black;
+                                    color: white;
+                                    font-size: 15px;
+                                    margin: 10px;
+                                }
+                                
+                                    .testyourself15 input{
+                                        width: 50%;
+                                        border-radius: 0;
+                                        height: 5%;
+                                        font-size: 20px;
+                                    }
+                                
+                                    .answer15{
+                                        text-decoration: none;
+                                        color: white;
+                                        margin-top: 1%;
+                                        margin-bottom: 10%;
+                                        margin-left: 15%;
+                                        border-radius: 20px;
+                                        color: black;
+                                        font-family: 'Montserrat', sans-serif;
+                                        background-color: aqua;
+                                        font-weight: 700;
+                                        padding: 10px;
+                                        width: 60%;
+                                        border: none;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    
+                                    .answer15:hover{
+                                        font-weight: bolder;
+                                        background-color: white;
+                                        color: black;
+                                        border: 0.1rem solid black;
+                                        border-radius: 20px;
+                                    }
+                                
+                                    .chances15{
+                                        background-color: black;
+                                        color: white;
+                                    }
+                                    .getout15{
+                                        background-color: black;
+                                        color: white;
+                                        font-size: 20px;
+                                        margin-left: 97%;
+                                        cursor: pointer;
+                                    }
+                                    .next15{
+                                        background-color: antiquewhite;
+                                        padding: 10px;
+                                        margin-left: 70%;
+                                        cursor: pointer;
+                                    
+                                    }
+                        
+          .testyourself16 {
+                        height: 80%;
+                        background-color: black;
+                        border-radius: 10px;
+                        padding: 10px;
+                        position: fixed;
+                        top: 10%;
+                        width: 80%;
+                        margin-left: 5%;
+                        
+                        }
+                        
+                        .testyourself16  p{
+                            background-color: black;
+                            color: white;
+                            font-size: 15px;
+                            margin: 10px;
+                        }
+                        
+                            .testyourself16 input{
+                                width: 50%;
+                                border-radius: 0;
+                                height: 5%;
+                                font-size: 20px;
+                            }
+                        
+                            .answer16{
+                                text-decoration: none;
+                                color: white;
+                                margin-top: 1%;
+                                margin-bottom: 10%;
+                                margin-left: 15%;
+                                border-radius: 20px;
+                                color: black;
+                                font-family: 'Montserrat', sans-serif;
+                                background-color: aqua;
+                                font-weight: 700;
+                                padding: 10px;
+                                width: 60%;
+                                border: none;
+                                cursor: pointer;
+                            }
+                            
+                            
+                            .answer16:hover{
+                                font-weight: bolder;
+                                background-color: white;
+                                color: black;
+                                border: 0.1rem solid black;
+                                border-radius: 20px;
+                            }
+                        
+                            .chances16{
+                                background-color: black;
+                                color: white;
+                            }
+                            .getout16{
+                                background-color: black;
+                                color: white;
+                                font-size: 20px;
+                                margin-left: 97%;
+                                cursor: pointer;
+                            }
+                            .next16{
+                                background-color: antiquewhite;
+                                padding: 10px;
+                                margin-left: 70%;
+                                cursor: pointer;
+                            
+                            }
+
+
+                            /***Question 17 **/
+                         
+          .testyourself17 {
+            height: 80%;
+            background-color: black;
+            border-radius: 10px;
+            padding: 10px;
+            position: fixed;
+            top: 10%;
+            width: 80%;
+            margin-left: 5%;
             
+            }
+            
+            .testyourself17  p{
+                background-color: black;
+                color: white;
+                font-size: 15px;
+                margin: 10px;
+            }
+            
+                .testyourself17 input{
+                    width: 50%;
+                    border-radius: 0;
+                    height: 5%;
+                    font-size: 20px;
+                }
+            
+                .answer17{
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 1%;
+                    margin-bottom: 10%;
+                    margin-left: 15%;
+                    border-radius: 20px;
+                    color: black;
+                    font-family: 'Montserrat', sans-serif;
+                    background-color: aqua;
+                    font-weight: 700;
+                    padding: 10px;
+                    width: 60%;
+                    border: none;
+                    cursor: pointer;
+                }
+                
+                
+                .answer17:hover{
+                    font-weight: bolder;
+                    background-color: white;
+                    color: black;
+                    border: 0.1rem solid black;
+                    border-radius: 20px;
+                }
+            
+                .chances17{
+                    background-color: black;
+                    color: white;
+                }
+                .getout17{
+                    background-color: black;
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 97%;
+                    cursor: pointer;
+                }
+                .next17{
+                    background-color: antiquewhite;
+                    padding: 10px;
+                    margin-left: 70%;
+                    cursor: pointer;
+                
+                }
+
+    .negativeInt{
+        background-color: black;
+        color: white;  
+        font-size: 100px;
+    }
+                   
+     .intergers{
+         background-color: black;
+        color: aqua; 
+        text-decoration: underline;
+    }
+
+    .product{
+        background-color: black;
+       color: aqua; 
+       text-decoration: underline;
+   }
+
+   .absolute{
+    background-color: black;
+   color: aqua; 
+   text-decoration: underline;
+}
+
+.sum{
+    background-color: black;
+   color: aqua; 
+   text-decoration: underline;
+}
+
+.difference{
+    background-color: black;
+   color: aqua; 
+   text-decoration: underline;
+}
     table{
         border: 1px solid black;
         width: 100%;
@@ -2377,6 +2822,8 @@ overflow-y: auto;
    
 }
 
+
+
 .notes1 span{
     background-color: black;
     color: white;
@@ -2412,6 +2859,13 @@ cursor: pointer;
     }
 
     .solveforxfact1 p{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .solveforxfact1 h1{
         background-color: black;
         color: white;
         font-size: 15px;
@@ -3081,6 +3535,8 @@ margin-left: 1%;
   
    
 }
+
+
 
 .notes2 sub{
     background-color: black;
