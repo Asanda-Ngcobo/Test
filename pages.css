@@ -2429,6 +2429,10 @@ footer ul li a img:hover{
 
  @media Screen  and (min-width: 300px) and (max-width: 480px) {
 
+       .logo {
+        margin-left: 40%;
+    }
+
     .videos .video{
         display: block;
         margin: 20px;
