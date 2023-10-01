@@ -139,7 +139,9 @@ header{
    
 }
 .header__title h1{
-   font-size: 60px;
+   font-size: 80px;
+   font-weight: 900;
+   
 
 }
 .header__title h1 span{
