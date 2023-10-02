@@ -22,7 +22,7 @@
 const startNowBtn = document.querySelectorAll('.start__now');
 const links = document.querySelector('.nav__links');
 const remove = document.querySelector('.remove');
-
+const pages = document.querySelectorAll('.nav__link');
 
 
 const openModal = function (){
