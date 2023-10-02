@@ -166,23 +166,23 @@ h4{
     padding: 30px;
     gap: 10%;
     justify-items: center;
-    background: aquamarine;
+    background: rgb(61, 65, 64);
     border-radius: 10px;
  }
 
  .numbers .data{
-    background: aquamarine;
+    background: rgb(61, 65, 64);
     width: 33%;
    
  }
 
  .data h2{
-    background: aquamarine;
+    background: rgb(61, 65, 64);
     color: white ;
     font-weight: bolder;
  }
  .data p{
-    background: aquamarine;
+    background:rgb(61, 65, 64);
     font-weight: bolder;
  }
 .start__now{
