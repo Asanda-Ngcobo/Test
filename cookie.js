@@ -23,7 +23,7 @@ const startNowBtn = document.querySelectorAll('.start__now');
 const links = document.querySelector('.nav__links');
 const remove = document.querySelector('.remove');
 const pages = document.querySelectorAll('.nav__link');
-const subMenu = document.querySelector('.sub__menu-1');
+
 
 
 const openModal = function (){
@@ -43,7 +43,7 @@ remove.addEventListener('click', closeModal);
    
 for(let i = 0; i <pages.length; i++){
   pages[i].addEventListener('click', closeModal);
-    subMenu.style.display = 'none';
+    
 }
 
 
